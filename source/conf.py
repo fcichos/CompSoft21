@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Introduction to Computer-based Physical Modeling'
-copyright = '2020, Frank Cichos'
+copyright = '2021, Frank Cichos'
 author = 'Frank Cichos'
 master_doc = 'index'
 
@@ -96,8 +96,8 @@ html_context = {
     # Set the following variables to generate the resulting github URL for each page.
     # Format Template: https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}
     'github_user': 'fcichos',
-    'github_repo': 'website',
-    'github_version': 'master/',
+    'github_repo': 'CompSoft21',
+    'github_version': 'main/',
     'conf_py_path': '/source/'
 }
 
@@ -116,7 +116,7 @@ nbsphinx_prolog = """
 
     .. nbinfo::
         This page was generated from `{{ docname }}`_.
-        :raw-html:`<br/><a href="https://mybinder.org/v2/gh/fcichos/website/master?urlpath=tree/{{ docname }}"><img alt="Binder badge" src="https://img.shields.io/badge/launch-full%20binder-red.svg" style="vertical-align:text-bottom"></a>`
+        :raw-html:`<br/><a href="https://mybinder.org/v2/gh/fcichos/CompSoft21/main?urlpath=tree/{{ docname }}"><img alt="Binder badge" src="https://img.shields.io/badge/launch-full%20binder-red.svg" style="vertical-align:text-bottom"></a>`
 
 .. only:: latex
 
@@ -127,4 +127,4 @@ nbsphinx_allow_errors = True
 
 # Sphinx versioning settings
 scv_show_banner = True
-scv_whitelist_branches = ('master', 'develop')
+scv_whitelist_branches = ('main', 'develop')
