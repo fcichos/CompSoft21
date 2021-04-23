@@ -15,6 +15,13 @@ Molecular Nanophotonics Group
  * `Computer-based Physical Modeling Website @ MONA <https://home.uni-leipzig.de/~physik/sites/mona/teaching/periodic-lectures/introduction-to-computer-based-physical-modeling-ss-2021/>`_
  * `Discussion forum for this course <https://home.uni-leipzig.de/~physik/sites/mona/teaching/periodic-lectures/introduction-to-computer-based-physical-modeling-ss-2021/community/>`_
 
+
+Additional Advanced Courses 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ * Rosenow Group (Theory), Master Course on `Statistical Mechanics of Deep Learning <https://home.uni-leipzig.de/stp/Statistical_Deep_SS21.html>`_
+
+
 Python Documentation
 ~~~~~~~~~~~~~~~~~~~~
 
