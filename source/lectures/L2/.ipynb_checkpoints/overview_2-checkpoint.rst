@@ -9,6 +9,7 @@ In this second lecture we will have a look at some
 4. Random number generation
 
 
+
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
