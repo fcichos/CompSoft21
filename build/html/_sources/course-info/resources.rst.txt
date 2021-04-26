@@ -13,7 +13,7 @@ Molecular Nanophotonics Group
 
  * `Molecular Nanophotonics Group Website <https://home.uni-leipzig.de/~physik/sites/mona/>`_
  * `Computer-based Physical Modeling Website @ MONA <https://home.uni-leipzig.de/~physik/sites/mona/teaching/periodic-lectures/introduction-to-computer-based-physical-modeling-ss-2021/>`_
- * `Discussion forum for this course <https://home.uni-leipzig.de/~physik/sites/mona/teaching/periodic-lectures/introduction-to-computer-based-physical-modeling-ss-2021/community/>`_
+ * `Discussion forum for this course <https://home.uni-leipzig.de/~physik/sites/mona/teaching/periodic-lectures/introduction-to-computer-based-physical-modeling-ss-2021/internal-introduction-to-computer-based-physical-modeling-ss-2021/forum/>`_
 
 
 Additional Advanced Courses 
