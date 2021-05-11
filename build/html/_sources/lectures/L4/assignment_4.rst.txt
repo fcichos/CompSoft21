@@ -9,7 +9,7 @@ The fourth assignment will be about the topic which is bothering us at the momen
 
 an create a simple simulation of the spreading of COVID19.
 
-Since this might be a bit more demanding you have time until the May, 12th. Don't hestitate to ask in the forum.
+Since this might be a bit more demanding you have may take some additional time. Don't hestitate to ask in the forum.
 Have fun!
 
     .. image:: img/assignment_4.png
