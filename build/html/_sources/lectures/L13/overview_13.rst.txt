@@ -6,4 +6,3 @@ Lecture 13 is all about Neural Networks. We will create a neural network in Pyth
 1. Neural Networks (MNIST)
 2. Neural Networks with Keras (MNIST)
 
-The video will this time come a bit later. As I saw that most of you are still behind with some of the other videos :-), this may be a welcome thing.
