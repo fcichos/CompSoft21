@@ -5,5 +5,3 @@ Lecture 14 is all about Convolutional Neural Networks (CNN). We will create with
 
 1. Convolutional Neural Networks (MNIST classification)
 2. Autoencoders (Denoising Timeseries)
-
-The video will this time come a bit later. As I saw that most of you are still behind with some of the other videos :-), this may be a welcome thing.

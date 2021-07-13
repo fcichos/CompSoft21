@@ -170,9 +170,7 @@ We will not present a comprehensive list of numerical simulation schemes, but us
 
    lectures/L12/overview_12.rst
    notebooks/L12/1_hydrodynamics.ipynb
-   notebooks/L12/2_reinforcement_learning.ipynb
-
-   
+   notebooks/L12/2_reinforcement_learning.ipynb   
    
 .. toctree::
    :maxdepth: 2
@@ -181,6 +179,16 @@ We will not present a comprehensive list of numerical simulation schemes, but us
    lectures/L13/overview_13.rst
    notebooks/L13/1_deep_learning.ipynb
    notebooks/L13/2_deep_learning_keras.ipynb
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Lecture 14:
+
+   lectures/L14/overview_14.rst
+   notebooks/L14/1_CNN.ipynb
+   notebooks/L14/2_AutoEncoder.ipynb
+
 
    
    
