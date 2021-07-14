@@ -17,5 +17,10 @@ All notebooks shall follow the following outline
 - **Summary** You summarize your findings
 
 
-The notbooks will be graded according to the common grading scheme.
+The notbooks will be graded according to the common grading scheme. 
+
+The deadline for handing in the project is **3. September 2021** 
+
+The projects shall be handed in via the `Molecular Nanophotonics Website <https://home.uni-leipzig.de/~physik/sites/mona/teaching/periodic-lectures/introduction-to-computer-based-physical-modeling-ss-2021/>`_
+
 
