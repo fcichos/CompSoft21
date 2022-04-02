@@ -1,75 +1,40 @@
-
-
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Curve fitting &mdash; Introduction to Computer-based Physical Modeling 21 1 documentation</title>
-  
-
-  
-  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
-
-  
-  
-  
-  
-
-  
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="../../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-    
-      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
         <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-        <script type="text/x-mathjax-config">MathJax.Hub.Config({"TeX": {"equationNumbers": {"autoNumber": "AMS", "useLabelIds": true}}, "tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "ignoreClass": "document", "processClass": "math|output_area"}})</script>
         <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.0/dist/embed-amd.js"></script>
-    
-    <script type="text/javascript" src="../../_static/js/theme.js"></script>
-
-    
+        <script type="text/x-mathjax-config">MathJax.Hub.Config({"TeX": {"equationNumbers": {"autoNumber": "AMS", "useLabelIds": true}}, "tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "ignoreClass": "tex2jax_ignore|mathjax_ignore|document", "processClass": "tex2jax_process|mathjax_process|math|output_area"}})</script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Lecture Contents" href="../../lectures/L9/overview_9.html" />
     <link rel="prev" title="Lecture Contents" href="../../lectures/L8/overview_8.html" /> 
 </head>
 
-<body class="wy-body-for-nav">
-
-   
+<body class="wy-body-for-nav"> 
   <div class="wy-grid-for-nav">
-    
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-          
-
-          
-            <a href="../../index.html" class="icon icon-home" alt="Documentation Home"> Introduction to Computer-based Physical Modeling 21
-          
-
-          
-            
+            <a href="../../index.html" class="icon icon-home"> Introduction to Computer-based Physical Modeling 21
             <img src="../../_static/mona_logo.png" class="logo" alt="Logo"/>
-          
           </a>
-
-          
-            
-            
-          
-
-          
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -77,19 +42,8 @@
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
-
-          
-        </div>
-
-        
-        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-          
-            
-            
-              
-            
-            
-              <p class="caption"><span class="caption-text">Course Information:</span></p>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Course Information:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../course-info/website.html">This Website</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../course-info/schedule.html">Course Schedule</a></li>
@@ -104,7 +58,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../course-info/instructor.html">Instructor</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Jupyter Notebooks:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Jupyter Notebooks:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/Intro/overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Intro/Introduction2Jupyter.html">Introduction to Jupyter</a><ul>
@@ -133,7 +87,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 1:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 1:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L1/overview_1.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L1/1_variables.html">Variables and types</a><ul>
@@ -164,7 +118,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L1/assignment_1.html">Exercise 1</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 2:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 2:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L2/overview_2.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L2/1_numpy.html">NumPy arrays</a><ul>
@@ -254,7 +208,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L2/assignment_2.html">Exercise 2</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 3:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 3:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L3/overview_3.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L3/1_input_output.html">Input and output</a><ul>
@@ -307,7 +261,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../L3/4_exceptions.html">Exceptions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L3/assignment_3.html">Exercise 3</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 4:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 4:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L4/overview_4.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L4/1_classes.html">Classes and Objects</a><ul>
@@ -342,7 +296,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L4/assignment_4.html">Exercise 4</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 5:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 5:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L5/overview_5.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L5/1_differentiation.html">Numerical Differentiation</a><ul>
@@ -399,7 +353,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 6:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 6:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L6/overview_6.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L6/1_covid19.html">COVID19</a><ul>
@@ -457,7 +411,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 7:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 7:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L7/overview_7.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L7/1_spring_pendulum.html">Spring Pendulum</a><ul>
@@ -508,7 +462,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L7/assignment_7.html">Exercise 7</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 8:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 8:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L8/overview_8.html">Lecture Contents</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Curve fitting</a><ul>
@@ -524,7 +478,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 9:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 9:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L9/overview_9.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L9/1_plane_waves.html">Plane Waves</a><ul>
@@ -566,7 +520,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L9/assignment_9.html">Exercise 9</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 10:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 10:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L10/overview_10.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L10/1_quantum_mechanics.html">Quantum Mechanics</a><ul>
@@ -619,7 +573,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 11:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 11:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L11/overview_11.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L11/1_quantum_dynamics.html">Time Dependent Quantum Mechanics</a><ul>
@@ -670,7 +624,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 12:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 12:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L12/overview_12.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L12/1_hydrodynamics.html">Hydrodynamics</a><ul>
@@ -714,7 +668,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 13:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 13:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L13/overview_13.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L13/1_deep_learning.html">Neural Networks</a><ul>
@@ -762,7 +716,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 14:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 14:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L14/overview_14.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L14/1_CNN.html">Convolutional Neural Networks</a><ul>
@@ -802,7 +756,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 15:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 15:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L15/overview_15.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L15/1_python_hardware.html">Python and Hardware</a><ul>
@@ -829,91 +783,64 @@
 </li>
 </ul>
 
-            
-          
         </div>
-        
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" aria-label="top navigation">
-        
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="../../index.html">Introduction to Computer-based Physical Modeling 21</a>
-        
       </nav>
 
-
       <div class="wy-nav-content">
-        
         <div class="rst-content">
-        
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div role="navigation" aria-label="breadcrumbs navigation">
-
+          <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-    
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
-        
       <li>Curve fitting</li>
-    
-    
       <li class="wy-breadcrumbs-aside">
-        
-            
-            
               <a href="https://github.com/fcichos/CompSoft21/blob/main//source/notebooks/L8/1_curve_fitting.ipynb" class="fa fa-github"> Edit on GitHub</a>
-            
-          
-        
       </li>
-    
   </ul>
-
-  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-            
+             
   
 <style>
 /* CSS for nbsphinx extension */
 
 /* remove conflicting styling from Sphinx themes */
-div.nbinput.container,
-div.nbinput.container div.prompt,
-div.nbinput.container div.input_area,
-div.nbinput.container div[class*=highlight],
-div.nbinput.container div[class*=highlight] pre,
-div.nboutput.container,
-div.nboutput.container div.prompt,
-div.nboutput.container div.output_area,
-div.nboutput.container div[class*=highlight],
-div.nboutput.container div[class*=highlight] pre {
-    background: none;
+div.nbinput.container div.prompt *,
+div.nboutput.container div.prompt *,
+div.nbinput.container div.input_area pre,
+div.nboutput.container div.output_area pre,
+div.nbinput.container div.input_area .highlight,
+div.nboutput.container div.output_area .highlight {
     border: none;
-    padding: 0 0;
+    padding: 0;
     margin: 0;
     box-shadow: none;
+}
+
+div.nbinput.container > div[class*=highlight],
+div.nboutput.container > div[class*=highlight] {
+    margin: 0;
+}
+
+div.nbinput.container div.prompt *,
+div.nboutput.container div.prompt * {
+    background: none;
+}
+
+div.nboutput.container div.output_area .highlight,
+div.nboutput.container div.output_area pre {
+    background: unset;
+}
+
+div.nboutput.container div.output_area div.highlight {
+    color: unset;  /* override Pygments text color */
 }
 
 /* avoid gaps between output lines */
@@ -1014,7 +941,7 @@ div.nboutput.container div.output_area {
 div.nbinput.container div.input_area {
     border: 1px solid #e0e0e0;
     border-radius: 2px;
-    background: #f5f5f5;
+    /*background: #f5f5f5;*/
 }
 
 /* override MathJax center alignment in output cells */
@@ -1080,6 +1007,7 @@ div.nboutput.container div.output_area.rendered_html,
 div.nboutput.container div.output_area > div.output_javascript,
 div.nboutput.container div.output_area:not(.rendered_html) > img{
     padding: 5px;
+    margin: 0;
 }
 
 /* fix copybtn overflow problem in chromium (needed for 'sphinx_copybutton') */
@@ -1089,7 +1017,7 @@ div.nboutput.container div.output_area > div[class^='highlight']{
 }
 
 /* hide copybtn icon on prompts (needed for 'sphinx_copybutton') */
-.prompt a.copybtn {
+.prompt .copybtn {
     display: none;
 }
 
@@ -1150,10 +1078,10 @@ div.rendered_html tbody tr:hover {
 }
 </style>
 <div class="admonition note">
-<p>This page was generated from <cite>source/notebooks/L8/1_curve_fitting.ipynb</cite>.
-<span class="raw-html"><br/><a href="https://mybinder.org/v2/gh/fcichos/CompSoft21/main?urlpath=tree/source/notebooks/L8/1_curve_fitting.ipynb"><img alt="Binder badge" src="https://img.shields.io/badge/launch-full%20binder-red.svg" style="vertical-align:text-bottom"></a></span></p>
+<p>This page was generated from <cite>/home/lectures/CompSoft21/source/notebooks/L8/1_curve_fitting.ipynb</cite>.
+<span class="raw-html"><br/><a href="https://mybinder.org/v2/gh/fcichos/CompSoft21/main?urlpath=tree//home/lectures/CompSoft21/source/notebooks/L8/1_curve_fitting.ipynb"><img alt="Binder badge" src="https://img.shields.io/badge/launch-full%20binder-red.svg" style="vertical-align:text-bottom"></a></span></p>
 </div>
-<div class="section" id="Curve-fitting">
+<section id="Curve-fitting">
 <h1>Curve fitting<a class="headerlink" href="#Curve-fitting" title="Permalink to this headline">¶</a></h1>
 <p>We stop for the moment the physics related stuff and have a look at a different important topic, which is curve fitting. We demonstrate the least-square fitting of a quadratic function with three parameters to experimental data. You may of course also have more complex function or even a simple linear function. For some fitting functions you may write down explicit estimators of the parameters and you do not have to stress the fitting procedure. So before you fit, think about how to obtain a
 good estimate of your model parameters. For those of you, who are interested a bit more in that topic, have a look at maximum likelihood estimation for example.</p>
@@ -1161,8 +1089,7 @@ good estimate of your model parameters. For those of you, who are interested a b
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[1]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="o">%</span><span class="k">matplotlib</span> inline
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
 <span class="o">%</span><span class="k">config</span> InlineBackend.figure_format = &#39;retina&#39;
 
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -1174,7 +1101,7 @@ good estimate of your model parameters. For those of you, who are interested a b
 </pre></div>
 </div>
 </div>
-<div class="section" id="Idea">
+<section id="Idea">
 <h2>Idea<a class="headerlink" href="#Idea" title="Permalink to this headline">¶</a></h2>
 <p>The result of an experiment are data points from which you would like to understand the physics behind, meaning you would like to see if a mathematical model fits your data.</p>
 <p>So the data comes as a series of points, usually pairs of points such as</p>
@@ -1218,8 +1145,8 @@ y_{1}=\frac{1}{N}\sum_i^N y_{1,i}
 <p><span class="math">\begin{equation}
 \sigma^{2}_{1}= \frac{1}{N} \sum_{i=1}^{N} ( y_{1,i}-y_{1} )^2
 \end{equation}</span></p>
-</div>
-<div class="section" id="Least-squares">
+</section>
+<section id="Least-squares">
 <h2>Least squares<a class="headerlink" href="#Least-squares" title="Permalink to this headline">¶</a></h2>
 <p>If we would now like to describe our data with a model function, which delivers a function value <span class="math notranslate nohighlight">\(f(x_{i},a)\)</span> for a set of parameters <span class="math notranslate nohighlight">\(a\)</span> at the position <span class="math notranslate nohighlight">\(x_{i}\)</span>, the the Gaussian uncertainty dictates a probability</p>
 <p><span class="math">\begin{equation}
@@ -1240,16 +1167,15 @@ p(y_{1},\ldots,y_{N})=\prod_{i}^{N}\frac{1}{\sqrt{2\pi}\sigma_{i}}\exp(-(y_{i}-f
 \chi^{2}=\sum_{i=1}^{N}\left ( \frac{y_{i}-f(x_{i},a)}{\sigma_{i}}\right )^2
 \end{equation}</span></p>
 <p>The second term is just a constant value given by the uncertainties of our experimental data.</p>
-</div>
-<div class="section" id="Data">
+</section>
+<section id="Data">
 <h2>Data<a class="headerlink" href="#Data" title="Permalink to this headline">¶</a></h2>
 <p>Lets have a look at the meaning of this equation. Lets assume we measure the trajectory of a ball that has been thrown under and angle <span class="math notranslate nohighlight">\(\alpha\)</span> with an initial velocity <span class="math notranslate nohighlight">\(v_{0}\)</span>. We have collected data point by measuring the height of the ball above ground at equally spaced distances from the throwing person. Lets load some data</p>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[2]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="c1"># Here is some data of the height measurements including untertainties</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Here is some data of the height measurements including untertainties</span>
 <span class="n">x_data</span><span class="p">,</span><span class="n">y_data</span><span class="p">,</span><span class="n">err</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span><span class="s1">&#39;data.txt&#39;</span><span class="p">,</span><span class="n">unpack</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -1264,8 +1190,7 @@ y=ax^2+bx+c
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[3]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="k">def</span> <span class="nf">parabola</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">):</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">parabola</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">):</span>
     <span class="k">return</span><span class="p">(</span><span class="n">a</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="n">b</span><span class="o">*</span><span class="n">x</span><span class="o">+</span><span class="n">c</span><span class="p">)</span>
 
 <span class="k">def</span> <span class="nf">plot</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">):</span>
@@ -1287,8 +1212,7 @@ y=ax^2+bx+c
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[4]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
 <span class="n">interact</span><span class="p">(</span><span class="n">plot</span><span class="p">,</span><span class="n">a</span><span class="o">=-</span><span class="mf">1.7</span><span class="p">,</span><span class="n">b</span><span class="o">=</span><span class="mf">1.3</span><span class="p">,</span><span class="n">c</span><span class="o">=</span><span class="mf">1.0</span><span class="p">);</span>
 </pre></div>
 </div>
@@ -1305,8 +1229,8 @@ y=ax^2+bx+c
 \chi^{2}=\sum_{i=1}^{N}\left ( \frac{y_{i}-f(x_{i},a)}{\sigma_{i}}\right )^2
 \end{equation}</span></p>
 <p>You may simply check the effect by changing the uncertainty of the last data points in the error array.</p>
-</div>
-<div class="section" id="Least-square-fitting">
+</section>
+<section id="Least-square-fitting">
 <h2>Least square fitting<a class="headerlink" href="#Least-square-fitting" title="Permalink to this headline">¶</a></h2>
 <p>The best fit of the model to the experimental data is then obtained by minimizing the least squares, i.e.</p>
 <p><span class="math">\begin{equation}
@@ -1318,8 +1242,7 @@ y=ax^2+bx+c
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[514]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="k">def</span> <span class="nf">parabola</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">):</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">parabola</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">):</span>
     <span class="k">return</span><span class="p">(</span><span class="n">a</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="n">b</span><span class="o">*</span><span class="n">x</span><span class="o">+</span><span class="n">c</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -1329,8 +1252,7 @@ y=ax^2+bx+c
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[515]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">init_guess</span> <span class="o">=</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">]</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">init_guess</span> <span class="o">=</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
@@ -1339,8 +1261,7 @@ y=ax^2+bx+c
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[516]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">fit</span><span class="o">=</span><span class="n">curve_fit</span><span class="p">(</span><span class="n">parabola</span><span class="p">,</span><span class="n">x_data</span><span class="p">,</span><span class="n">y_data</span><span class="p">,</span><span class="n">sigma</span><span class="o">=</span><span class="n">err</span><span class="p">,</span><span class="n">p0</span><span class="o">=</span><span class="n">init_guess</span><span class="p">,</span><span class="n">absolute_sigma</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fit</span><span class="o">=</span><span class="n">curve_fit</span><span class="p">(</span><span class="n">parabola</span><span class="p">,</span><span class="n">x_data</span><span class="p">,</span><span class="n">y_data</span><span class="p">,</span><span class="n">sigma</span><span class="o">=</span><span class="n">err</span><span class="p">,</span><span class="n">p0</span><span class="o">=</span><span class="n">init_guess</span><span class="p">,</span><span class="n">absolute_sigma</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1349,8 +1270,7 @@ y=ax^2+bx+c
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[517]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">ans</span><span class="p">,</span><span class="n">cov</span><span class="o">=</span><span class="n">fit</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ans</span><span class="p">,</span><span class="n">cov</span><span class="o">=</span><span class="n">fit</span>
 <span class="n">fit_a</span><span class="p">,</span><span class="n">fit_b</span><span class="p">,</span><span class="n">fit_c</span><span class="o">=</span><span class="n">ans</span>
 </pre></div>
 </div>
@@ -1360,8 +1280,7 @@ y=ax^2+bx+c
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[518]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">fit_a</span><span class="p">,</span><span class="n">fit_b</span><span class="p">,</span><span class="n">fit_c</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fit_a</span><span class="p">,</span><span class="n">fit_b</span><span class="p">,</span><span class="n">fit_c</span>
 </pre></div>
 </div>
 </div>
@@ -1378,8 +1297,7 @@ y=ax^2+bx+c
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[519]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
 <span class="n">chisq</span><span class="o">=</span><span class="p">(((</span><span class="n">y_data</span><span class="o">-</span><span class="n">parabola</span><span class="p">(</span><span class="n">x_data</span><span class="p">,</span><span class="n">fit_a</span><span class="p">,</span><span class="n">fit_b</span><span class="p">,</span><span class="n">fit_c</span><span class="p">))</span><span class="o">/</span><span class="n">err</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">parabola</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">fit_a</span><span class="p">,</span><span class="n">fit_b</span><span class="p">,</span><span class="n">fit_c</span><span class="p">),</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;$\chi^2$=</span><span class="si">{0:6.3f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">chisq</span><span class="p">))</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">errorbar</span><span class="p">(</span><span class="n">x_data</span><span class="p">,</span><span class="n">y_data</span><span class="p">,</span><span class="n">yerr</span><span class="o">=</span><span class="n">err</span><span class="p">,</span><span class="n">marker</span><span class="o">=</span><span class="s1">&#39;o&#39;</span><span class="p">,</span><span class="n">fmt</span><span class="o">=</span><span class="s2">&quot;none&quot;</span><span class="p">,</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;k&#39;</span><span class="p">,)</span>
@@ -1398,7 +1316,7 @@ y=ax^2+bx+c
 <img alt="../../_images/notebooks_L8_1_curve_fitting_30_0.png" class="no-scaled-link" src="../../_images/notebooks_L8_1_curve_fitting_30_0.png" style="width: 528px; height: 385px;" />
 </div>
 </div>
-<div class="section" id="\chi-squared-value">
+<section id="\chi-squared-value">
 <h3><span class="math notranslate nohighlight">\(\chi\)</span>-squared value<a class="headerlink" href="#\chi-squared-value" title="Permalink to this headline">¶</a></h3>
 <p>The value of <span class="math notranslate nohighlight">\(\chi^2\)</span> gives you a measure for the quality of the fit. We may judge the quality by calculating and expression of the expectation value of <span class="math notranslate nohighlight">\(\chi^{2}\)</span></p>
 <p><span class="math">\begin{equation}
@@ -1412,8 +1330,8 @@ y=ax^2+bx+c
 <p>The first may occur if you don’t have a good fit to your data, for example, a wrong model. The second typically occurs if you don’t have estimates of the uncertainties and you assume all uncertainties to be constant. So it is really important to have a good estimate of the uncertainties and to include it in do you fit. If you include the uncertainties your fit it is called a <code class="docutils literal notranslate"><span class="pre">weighted</span> <span class="pre">fit</span></code> in case you don’t include the uncertainties (meaning you keep them constant) it is called an
 <code class="docutils literal notranslate"><span class="pre">unweighted</span> <span class="pre">fit</span></code>.</p>
 <p>For our fit above we obtain a <span class="math notranslate nohighlight">\(\chi^{2}\)</span> which is on the order of <span class="math notranslate nohighlight">\(N=10\)</span>, which tells you that I have cheated well when creating the data.</p>
-</div>
-<div class="section" id="Residuals">
+</section>
+<section id="Residuals">
 <h3>Residuals<a class="headerlink" href="#Residuals" title="Permalink to this headline">¶</a></h3>
 <p>A similar view on the quality of the fit may be ontained from the residuals. These are defined as the deviation of the data from the model for the best fit.</p>
 <p><span class="math">\begin{equation}
@@ -1428,8 +1346,7 @@ r_i=100\left (\frac{y_i-f(x_{i},a)}{y_i}\right )
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[505]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
 <span class="n">chisq</span><span class="o">=</span><span class="p">(((</span><span class="n">y_data</span><span class="o">-</span><span class="n">parabola</span><span class="p">(</span><span class="n">x_data</span><span class="p">,</span><span class="n">fit_a</span><span class="p">,</span><span class="n">fit_b</span><span class="p">,</span><span class="n">fit_c</span><span class="p">))</span><span class="o">/</span><span class="n">err</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x_data</span><span class="p">,</span><span class="mi">100</span><span class="o">*</span><span class="p">(</span><span class="n">y_data</span><span class="o">-</span><span class="n">parabola</span><span class="p">(</span><span class="n">x_data</span><span class="p">,</span><span class="n">fit_a</span><span class="p">,</span><span class="n">fit_b</span><span class="p">,</span><span class="n">fit_c</span><span class="p">))</span><span class="o">/</span><span class="n">y_data</span><span class="p">,</span><span class="n">marker</span><span class="o">=</span><span class="s1">&#39;o&#39;</span><span class="p">,</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;k&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;x- position&#39;</span><span class="p">)</span>
@@ -1445,17 +1362,16 @@ r_i=100\left (\frac{y_i-f(x_{i},a)}{y_i}\right )
 <img alt="../../_images/notebooks_L8_1_curve_fitting_37_0.png" class="no-scaled-link" src="../../_images/notebooks_L8_1_curve_fitting_37_0.png" style="width: 511px; height: 385px;" />
 </div>
 </div>
-</div>
-</div>
-<div class="section" id="Covariance-matrix">
+</section>
+</section>
+<section id="Covariance-matrix">
 <h2>Covariance matrix<a class="headerlink" href="#Covariance-matrix" title="Permalink to this headline">¶</a></h2>
 <p>Let us now have a look at the individual measurements which have yielded the errorbars in the above plot. If I take each of those measurements and calculate a fit for each of the datasets I get a whole set of fit functions and parameters. The uncertainties in the parameters of the fit function are the result of the measurement uncertainty.</p>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[535]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="k">def</span> <span class="nf">data</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">):</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">data</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">):</span>
     <span class="n">y</span><span class="o">=</span><span class="n">a</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="n">b</span><span class="o">*</span><span class="n">x</span><span class="o">+</span><span class="n">c</span>
     <span class="n">err</span><span class="o">=</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">()</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">))]</span>
     <span class="n">err</span><span class="o">=</span><span class="n">y</span><span class="o">*</span><span class="n">err</span><span class="o">*</span><span class="mf">0.05</span>
@@ -1467,8 +1383,7 @@ r_i=100\left (\frac{y_i-f(x_{i},a)}{y_i}\right )
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[522]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
 <span class="n">ym</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
 
@@ -1517,8 +1432,7 @@ r_i=100\left (\frac{y_i-f(x_{i},a)}{y_i}\right )
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[537]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="nb">print</span><span class="p">(</span><span class="n">cov</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">cov</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1541,8 +1455,7 @@ R_{p_{i},p_{j}}=\frac{{\rm cov}(p_{i},p_{j})}{\sqrt{\sigma_{i}^2\sigma_{j}^2}}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[538]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">s</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">diag</span><span class="p">(</span><span class="n">cov</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">s</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">diag</span><span class="p">(</span><span class="n">cov</span><span class="p">)</span>
 <span class="n">R</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">])</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
     <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
@@ -1554,8 +1467,7 @@ R_{p_{i},p_{j}}=\frac{{\rm cov}(p_{i},p_{j})}{\sqrt{\sigma_{i}^2\sigma_{j}^2}}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[527]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="nb">print</span><span class="p">(</span><span class="n">R</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">R</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1574,8 +1486,7 @@ R_{p_{i},p_{j}}=\frac{{\rm cov}(p_{i},p_{j})}{\sqrt{\sigma_{i}^2\sigma_{j}^2}}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[539]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="k">def</span> <span class="nf">data</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">):</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">data</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">):</span>
     <span class="n">y</span><span class="o">=</span><span class="n">a</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="n">b</span><span class="o">*</span><span class="n">x</span><span class="o">+</span><span class="n">c</span>
     <span class="n">err</span><span class="o">=</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">()</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">))]</span>
     <span class="n">err</span><span class="o">=</span><span class="n">y</span><span class="o">*</span><span class="n">err</span><span class="o">*</span><span class="mf">0.05</span>
@@ -1588,8 +1499,7 @@ R_{p_{i},p_{j}}=\frac{{\rm cov}(p_{i},p_{j})}{\sqrt{\sigma_{i}^2\sigma_{j}^2}}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[540]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">a</span><span class="o">=</span><span class="p">[]</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span><span class="o">=</span><span class="p">[]</span>
 <span class="n">b</span><span class="o">=</span><span class="p">[]</span>
 <span class="n">c</span><span class="o">=</span><span class="p">[]</span>
 <span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
@@ -1607,8 +1517,7 @@ R_{p_{i},p_{j}}=\frac{{\rm cov}(p_{i},p_{j})}{\sqrt{\sigma_{i}^2\sigma_{j}^2}}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[529]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39; &#39;</span><span class="p">,</span><span class="n">alpha</span><span class="o">=</span><span class="mf">0.2</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;parameter a&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;parameter b&#39;</span><span class="p">)</span>
@@ -1640,8 +1549,7 @@ y=a(x-b)^2 +c
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[541]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="k">def</span> <span class="nf">newmodel</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">):</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">newmodel</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">):</span>
     <span class="k">return</span><span class="p">(</span><span class="n">a</span><span class="o">*</span><span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="n">b</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="n">c</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -1650,8 +1558,7 @@ y=a(x-b)^2 +c
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[542]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">fit</span><span class="o">=</span><span class="n">curve_fit</span><span class="p">(</span><span class="n">newmodel</span><span class="p">,</span><span class="n">x_data</span><span class="p">,</span><span class="n">y_data</span><span class="p">,</span><span class="n">sigma</span><span class="o">=</span><span class="n">err</span><span class="p">,</span><span class="n">p0</span><span class="o">=</span><span class="n">init_guess</span><span class="p">,</span><span class="n">absolute_sigma</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fit</span><span class="o">=</span><span class="n">curve_fit</span><span class="p">(</span><span class="n">newmodel</span><span class="p">,</span><span class="n">x_data</span><span class="p">,</span><span class="n">y_data</span><span class="p">,</span><span class="n">sigma</span><span class="o">=</span><span class="n">err</span><span class="p">,</span><span class="n">p0</span><span class="o">=</span><span class="n">init_guess</span><span class="p">,</span><span class="n">absolute_sigma</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1659,8 +1566,7 @@ y=a(x-b)^2 +c
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[543]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">ans</span><span class="p">,</span> <span class="n">cov</span><span class="o">=</span><span class="n">fit</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ans</span><span class="p">,</span> <span class="n">cov</span><span class="o">=</span><span class="n">fit</span>
 </pre></div>
 </div>
 </div>
@@ -1668,8 +1574,7 @@ y=a(x-b)^2 +c
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[544]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">s</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">diag</span><span class="p">(</span><span class="n">cov</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">s</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">diag</span><span class="p">(</span><span class="n">cov</span><span class="p">)</span>
 <span class="n">R</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">])</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
     <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
@@ -1682,8 +1587,7 @@ y=a(x-b)^2 +c
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[546]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="nb">print</span><span class="p">(</span><span class="n">cov</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">cov</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1702,8 +1606,7 @@ y=a(x-b)^2 +c
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[495]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="nb">print</span><span class="p">(</span><span class="n">R</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">R</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1721,73 +1624,46 @@ y=a(x-b)^2 +c
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>
 </pre></div>
 </div>
 </div>
 <script type="application/vnd.jupyter.widget-state+json">
 {"state": {}, "version_major": 2, "version_minor": 0}
-</script></div>
-</div>
+</script></section>
+</section>
 
 
            </div>
-           
           </div>
-          <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="../../lectures/L9/overview_9.html" class="btn btn-neutral float-right" title="Lecture Contents" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="../../lectures/L8/overview_8.html" class="btn btn-neutral float-left" title="Lecture Contents" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../../lectures/L8/overview_8.html" class="btn btn-neutral float-left" title="Lecture Contents" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../../lectures/L9/overview_9.html" class="btn btn-neutral float-right" title="Lecture Contents" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
-    <p>
-        
-        &copy; Copyright 2021, Frank Cichos
-      <span class="lastupdated">
-        Last updated on Jul 19, 2021.
-      </span>
-
-    </p>
+    <p>&#169; Copyright 2021, Frank Cichos.
+      <span class="lastupdated">Last updated on Mar 24, 2022.
+      </span></p>
   </div>
-    
-    
-    
-    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
-    
-    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
-    
-    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
 
 </footer>
-
         </div>
       </div>
-
     </section>
-
   </div>
-  
-
-  <script type="text/javascript">
+  <script>
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-
-  
-  
-    
-   
+  </script> 
 
 </body>
 </html>

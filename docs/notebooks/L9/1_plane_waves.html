@@ -1,75 +1,40 @@
-
-
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Plane Waves &mdash; Introduction to Computer-based Physical Modeling 21 1 documentation</title>
-  
-
-  
-  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
-
-  
-  
-  
-  
-
-  
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="../../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-    
-      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
         <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-        <script type="text/x-mathjax-config">MathJax.Hub.Config({"TeX": {"equationNumbers": {"autoNumber": "AMS", "useLabelIds": true}}, "tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "ignoreClass": "document", "processClass": "math|output_area"}})</script>
         <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.0/dist/embed-amd.js"></script>
-    
-    <script type="text/javascript" src="../../_static/js/theme.js"></script>
-
-    
+        <script type="text/x-mathjax-config">MathJax.Hub.Config({"TeX": {"equationNumbers": {"autoNumber": "AMS", "useLabelIds": true}}, "tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "ignoreClass": "tex2jax_ignore|mathjax_ignore|document", "processClass": "tex2jax_process|mathjax_process|math|output_area"}})</script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Spherical waves" href="2_spherical_waves.html" />
     <link rel="prev" title="Lecture Contents" href="../../lectures/L9/overview_9.html" /> 
 </head>
 
-<body class="wy-body-for-nav">
-
-   
+<body class="wy-body-for-nav"> 
   <div class="wy-grid-for-nav">
-    
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-          
-
-          
-            <a href="../../index.html" class="icon icon-home" alt="Documentation Home"> Introduction to Computer-based Physical Modeling 21
-          
-
-          
-            
+            <a href="../../index.html" class="icon icon-home"> Introduction to Computer-based Physical Modeling 21
             <img src="../../_static/mona_logo.png" class="logo" alt="Logo"/>
-          
           </a>
-
-          
-            
-            
-          
-
-          
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -77,19 +42,8 @@
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
-
-          
-        </div>
-
-        
-        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-          
-            
-            
-              
-            
-            
-              <p class="caption"><span class="caption-text">Course Information:</span></p>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Course Information:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../course-info/website.html">This Website</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../course-info/schedule.html">Course Schedule</a></li>
@@ -104,7 +58,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../course-info/instructor.html">Instructor</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Jupyter Notebooks:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Jupyter Notebooks:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/Intro/overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Intro/Introduction2Jupyter.html">Introduction to Jupyter</a><ul>
@@ -133,7 +87,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 1:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 1:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L1/overview_1.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L1/1_variables.html">Variables and types</a><ul>
@@ -164,7 +118,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L1/assignment_1.html">Exercise 1</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 2:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 2:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L2/overview_2.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L2/1_numpy.html">NumPy arrays</a><ul>
@@ -254,7 +208,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L2/assignment_2.html">Exercise 2</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 3:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 3:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L3/overview_3.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L3/1_input_output.html">Input and output</a><ul>
@@ -307,7 +261,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../L3/4_exceptions.html">Exceptions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L3/assignment_3.html">Exercise 3</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 4:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 4:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L4/overview_4.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L4/1_classes.html">Classes and Objects</a><ul>
@@ -342,7 +296,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L4/assignment_4.html">Exercise 4</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 5:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 5:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L5/overview_5.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L5/1_differentiation.html">Numerical Differentiation</a><ul>
@@ -399,7 +353,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 6:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 6:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L6/overview_6.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L6/1_covid19.html">COVID19</a><ul>
@@ -457,7 +411,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 7:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 7:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L7/overview_7.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L7/1_spring_pendulum.html">Spring Pendulum</a><ul>
@@ -508,7 +462,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L7/assignment_7.html">Exercise 7</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 8:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 8:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L8/overview_8.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L8/1_curve_fitting.html">Curve fitting</a><ul>
@@ -524,7 +478,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 9:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 9:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L9/overview_9.html">Lecture Contents</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Plane Waves</a><ul>
@@ -566,7 +520,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L9/assignment_9.html">Exercise 9</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 10:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 10:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L10/overview_10.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L10/1_quantum_mechanics.html">Quantum Mechanics</a><ul>
@@ -619,7 +573,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 11:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 11:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L11/overview_11.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L11/1_quantum_dynamics.html">Time Dependent Quantum Mechanics</a><ul>
@@ -670,7 +624,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 12:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 12:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L12/overview_12.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L12/1_hydrodynamics.html">Hydrodynamics</a><ul>
@@ -714,7 +668,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 13:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 13:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L13/overview_13.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L13/1_deep_learning.html">Neural Networks</a><ul>
@@ -762,7 +716,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 14:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 14:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L14/overview_14.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L14/1_CNN.html">Convolutional Neural Networks</a><ul>
@@ -802,7 +756,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 15:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 15:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L15/overview_15.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L15/1_python_hardware.html">Python and Hardware</a><ul>
@@ -829,91 +783,64 @@
 </li>
 </ul>
 
-            
-          
         </div>
-        
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" aria-label="top navigation">
-        
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="../../index.html">Introduction to Computer-based Physical Modeling 21</a>
-        
       </nav>
 
-
       <div class="wy-nav-content">
-        
         <div class="rst-content">
-        
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div role="navigation" aria-label="breadcrumbs navigation">
-
+          <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-    
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
-        
       <li>Plane Waves</li>
-    
-    
       <li class="wy-breadcrumbs-aside">
-        
-            
-            
               <a href="https://github.com/fcichos/CompSoft21/blob/main//source/notebooks/L9/1_plane_waves.ipynb" class="fa fa-github"> Edit on GitHub</a>
-            
-          
-        
       </li>
-    
   </ul>
-
-  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-            
+             
   
 <style>
 /* CSS for nbsphinx extension */
 
 /* remove conflicting styling from Sphinx themes */
-div.nbinput.container,
-div.nbinput.container div.prompt,
-div.nbinput.container div.input_area,
-div.nbinput.container div[class*=highlight],
-div.nbinput.container div[class*=highlight] pre,
-div.nboutput.container,
-div.nboutput.container div.prompt,
-div.nboutput.container div.output_area,
-div.nboutput.container div[class*=highlight],
-div.nboutput.container div[class*=highlight] pre {
-    background: none;
+div.nbinput.container div.prompt *,
+div.nboutput.container div.prompt *,
+div.nbinput.container div.input_area pre,
+div.nboutput.container div.output_area pre,
+div.nbinput.container div.input_area .highlight,
+div.nboutput.container div.output_area .highlight {
     border: none;
-    padding: 0 0;
+    padding: 0;
     margin: 0;
     box-shadow: none;
+}
+
+div.nbinput.container > div[class*=highlight],
+div.nboutput.container > div[class*=highlight] {
+    margin: 0;
+}
+
+div.nbinput.container div.prompt *,
+div.nboutput.container div.prompt * {
+    background: none;
+}
+
+div.nboutput.container div.output_area .highlight,
+div.nboutput.container div.output_area pre {
+    background: unset;
+}
+
+div.nboutput.container div.output_area div.highlight {
+    color: unset;  /* override Pygments text color */
 }
 
 /* avoid gaps between output lines */
@@ -1014,7 +941,7 @@ div.nboutput.container div.output_area {
 div.nbinput.container div.input_area {
     border: 1px solid #e0e0e0;
     border-radius: 2px;
-    background: #f5f5f5;
+    /*background: #f5f5f5;*/
 }
 
 /* override MathJax center alignment in output cells */
@@ -1080,6 +1007,7 @@ div.nboutput.container div.output_area.rendered_html,
 div.nboutput.container div.output_area > div.output_javascript,
 div.nboutput.container div.output_area:not(.rendered_html) > img{
     padding: 5px;
+    margin: 0;
 }
 
 /* fix copybtn overflow problem in chromium (needed for 'sphinx_copybutton') */
@@ -1089,7 +1017,7 @@ div.nboutput.container div.output_area > div[class^='highlight']{
 }
 
 /* hide copybtn icon on prompts (needed for 'sphinx_copybutton') */
-.prompt a.copybtn {
+.prompt .copybtn {
     display: none;
 }
 
@@ -1150,10 +1078,10 @@ div.rendered_html tbody tr:hover {
 }
 </style>
 <div class="admonition note">
-<p>This page was generated from <cite>source/notebooks/L9/1_plane_waves.ipynb</cite>.
-<span class="raw-html"><br/><a href="https://mybinder.org/v2/gh/fcichos/CompSoft21/main?urlpath=tree/source/notebooks/L9/1_plane_waves.ipynb"><img alt="Binder badge" src="https://img.shields.io/badge/launch-full%20binder-red.svg" style="vertical-align:text-bottom"></a></span></p>
+<p>This page was generated from <cite>/home/lectures/CompSoft21/source/notebooks/L9/1_plane_waves.ipynb</cite>.
+<span class="raw-html"><br/><a href="https://mybinder.org/v2/gh/fcichos/CompSoft21/main?urlpath=tree//home/lectures/CompSoft21/source/notebooks/L9/1_plane_waves.ipynb"><img alt="Binder badge" src="https://img.shields.io/badge/launch-full%20binder-red.svg" style="vertical-align:text-bottom"></a></span></p>
 </div>
-<div class="section" id="Plane-Waves">
+<section id="Plane-Waves">
 <h1>Plane Waves<a class="headerlink" href="#Plane-Waves" title="Permalink to this headline">¶</a></h1>
 <p>In the previous parts we have dealt with mechanics essentially. Even if we have described Brownian motion, this has been done by a particular type of Newtons equation of motion, it is much like mechanics. Now we would like to have a look at some examples from electromagnetic waves. We will not solve the wave equation but look at some solution using the complex notion of the electric field. This shall train our use of complex numbers. The special solutions are the <strong>plane wave</strong> and the
 <strong>spherical wave</strong>.</p>
@@ -1161,8 +1089,7 @@ div.rendered_html tbody tr:hover {
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[2]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">sleep</span><span class="p">,</span><span class="n">time</span>
 <span class="kn">from</span> <span class="nn">ipycanvas</span> <span class="kn">import</span> <span class="n">MultiCanvas</span><span class="p">,</span> <span class="n">hold_canvas</span><span class="p">,</span><span class="n">Canvas</span>
@@ -1187,11 +1114,10 @@ div.rendered_html tbody tr:hover {
                      <span class="s1">&#39;xtick.direction&#39;</span> <span class="p">:</span> <span class="s1">&#39;in&#39;</span><span class="p">,</span>
                      <span class="s1">&#39;ytick.right&#39;</span> <span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
                      <span class="s1">&#39;ytick.direction&#39;</span> <span class="p">:</span> <span class="s1">&#39;in&#39;</span><span class="p">,})</span>
-
-</pre></div>
+<br/></pre></div>
 </div>
 </div>
-<div class="section" id="Equations">
+<section id="Equations">
 <h2>Equations<a class="headerlink" href="#Equations" title="Permalink to this headline">¶</a></h2>
 <p>A plane wave is a solution of the homogeneous wave equation and is given in its complex form by</p>
 <p><span class="math">\begin{equation}
@@ -1235,15 +1161,14 @@ k_{z}^{\prime}+ik_{z}^{"} \\
 <p><span class="math">\begin{equation}
 \Im(k)=\kappa \frac{2\pi}{\lambda_{0}}
 \end{equation}</span></p>
-</div>
-<div class="section" id="Electric-field">
+</section>
+<section id="Electric-field">
 <h2>Electric field<a class="headerlink" href="#Electric-field" title="Permalink to this headline">¶</a></h2>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[3]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="k">def</span> <span class="nf">plane_wave</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">omega</span><span class="p">,</span><span class="n">r</span><span class="p">,</span><span class="n">t</span><span class="p">):</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">plane_wave</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">omega</span><span class="p">,</span><span class="n">r</span><span class="p">,</span><span class="n">t</span><span class="p">):</span>
     <span class="k">return</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="mi">1</span><span class="n">j</span><span class="o">*</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">r</span><span class="p">)</span><span class="o">-</span><span class="n">omega</span><span class="o">*</span><span class="n">t</span><span class="p">)))</span>
 </pre></div>
 </div>
@@ -1253,8 +1178,7 @@ k_{z}^{\prime}+ik_{z}^{"} \\
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[4]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">wavelength</span><span class="o">=</span><span class="mf">532e-9</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">wavelength</span><span class="o">=</span><span class="mf">532e-9</span>
 <span class="n">k0</span><span class="o">=</span><span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">/</span><span class="n">wavelength</span>
 <span class="n">c</span><span class="o">=</span><span class="mi">299792458</span>
 <span class="n">omega0</span><span class="o">=</span><span class="n">k0</span><span class="o">*</span><span class="n">c</span>
@@ -1266,8 +1190,7 @@ k_{z}^{\prime}+ik_{z}^{"} \\
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[5]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">vec</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">0.</span><span class="p">,</span><span class="mf">0.</span><span class="p">,</span><span class="mf">1.</span><span class="p">])</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">vec</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">0.</span><span class="p">,</span><span class="mf">0.</span><span class="p">,</span><span class="mf">1.</span><span class="p">])</span>
 <span class="n">vec</span><span class="o">=</span><span class="n">vec</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">vec</span><span class="p">,</span><span class="n">vec</span><span class="p">))</span>
 
 <span class="n">k</span><span class="o">=</span><span class="n">k0</span><span class="o">*</span><span class="n">vec</span>
@@ -1279,8 +1202,7 @@ k_{z}^{\prime}+ik_{z}^{"} \\
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[6]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mf">2.5e-6</span><span class="p">,</span><span class="mf">2.5e-6</span><span class="p">,</span><span class="mi">300</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mf">2.5e-6</span><span class="p">,</span><span class="mf">2.5e-6</span><span class="p">,</span><span class="mi">300</span><span class="p">)</span>
 <span class="n">z</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mf">5e-6</span><span class="p">,</span><span class="mi">300</span><span class="p">)</span>
 
 <span class="n">X</span><span class="p">,</span><span class="n">Z</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">meshgrid</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">z</span><span class="p">)</span>
@@ -1306,8 +1228,7 @@ I\propto |E|^{2}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[7]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
 <span class="n">field</span><span class="o">=</span><span class="n">plane_wave</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">omega0</span><span class="p">,</span><span class="n">r</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
 <span class="n">extent</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">z</span><span class="p">)</span><span class="o">*</span><span class="mf">1e6</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">z</span><span class="p">)</span><span class="o">*</span><span class="mf">1e6</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">*</span><span class="mf">1e6</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">*</span><span class="mf">1e6</span>
 
@@ -1328,16 +1249,15 @@ I\propto |E|^{2}
 <img alt="../../_images/notebooks_L9_1_plane_waves_18_0.png" class="no-scaled-link" src="../../_images/notebooks_L9_1_plane_waves_18_0.png" style="width: 347px; height: 354px;" />
 </div>
 </div>
-</div>
-<div class="section" id="Plane-wave-propagation">
+</section>
+<section id="Plane-wave-propagation">
 <h2>Plane wave propagation<a class="headerlink" href="#Plane-wave-propagation" title="Permalink to this headline">¶</a></h2>
 <p>The above graph shows a static snapshot of the plane wave at a time <span class="math notranslate nohighlight">\(t=0\)</span>. We know, however, that a plane wave is propagating in space and time. Since we know how to animate things, we may do that using the <code class="docutils literal notranslate"><span class="pre">ipycanvas</span></code> module.</p>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[8]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mf">2.5e-6</span><span class="p">,</span><span class="mf">2.5e-6</span><span class="p">,</span><span class="mi">300</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mf">2.5e-6</span><span class="p">,</span><span class="mf">2.5e-6</span><span class="p">,</span><span class="mi">300</span><span class="p">)</span>
 <span class="n">z</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mf">5e-6</span><span class="p">,</span><span class="mi">300</span><span class="p">)</span>
 
 <span class="n">X</span><span class="p">,</span><span class="n">Z</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">meshgrid</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">z</span><span class="p">)</span>
@@ -1358,8 +1278,7 @@ I\propto |E|^{2}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[18]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">canvas</span> <span class="o">=</span> <span class="n">Canvas</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span><span class="n">sync_image_data</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">canvas</span> <span class="o">=</span> <span class="n">Canvas</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span><span class="n">sync_image_data</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">display</span><span class="p">(</span><span class="n">canvas</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -1375,8 +1294,7 @@ I\propto |E|^{2}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[10]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="c1">#normalize the color map to a certain value range</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#normalize the color map to a certain value range</span>
 <span class="n">norm</span> <span class="o">=</span> <span class="n">mpl</span><span class="o">.</span><span class="n">colors</span><span class="o">.</span><span class="n">Normalize</span><span class="p">(</span><span class="n">vmin</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> <span class="n">vmax</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 
 <span class="c1">#call the color map</span>
@@ -1392,8 +1310,7 @@ I\propto |E|^{2}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[11]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="k">def</span> <span class="nf">animate</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">time</span><span class="p">):</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">animate</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">time</span><span class="p">):</span>
     <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">time</span><span class="p">:</span>
         <span class="n">field</span><span class="o">=</span><span class="n">plane_wave</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">omega0</span><span class="p">,</span><span class="n">r</span><span class="p">,</span><span class="n">t</span><span class="p">)</span>
         <span class="n">tmp</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">real</span><span class="p">(</span><span class="n">field</span><span class="o">.</span><span class="n">transpose</span><span class="p">())</span>
@@ -1409,8 +1326,7 @@ With the call below, you may animate the wave now with different refractive indi
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[12]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">eta</span><span class="o">=</span><span class="mi">1</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">eta</span><span class="o">=</span><span class="mi">1</span>
 <span class="n">kappa</span><span class="o">=</span><span class="mi">0</span>
 <span class="n">n</span><span class="o">=</span><span class="n">eta</span><span class="o">+</span><span class="n">kappa</span><span class="o">*</span><span class="mi">1</span><span class="n">j</span>
 
@@ -1420,16 +1336,15 @@ With the call below, you may animate the wave now with different refractive indi
 </pre></div>
 </div>
 </div>
-</div>
-<div class="section" id="Imaginary-wave-vector">
+</section>
+<section id="Imaginary-wave-vector">
 <h2>Imaginary wave vector<a class="headerlink" href="#Imaginary-wave-vector" title="Permalink to this headline">¶</a></h2>
 <p>If we now create a material, which has an imaginary part of the refractive index, we see that the amplitude decays and the wave fades.</p>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[13]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mf">2.5e-6</span><span class="p">,</span><span class="mf">2.5e-6</span><span class="p">,</span><span class="mi">300</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mf">2.5e-6</span><span class="p">,</span><span class="mf">2.5e-6</span><span class="p">,</span><span class="mi">300</span><span class="p">)</span>
 <span class="n">z</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mf">5e-6</span><span class="p">,</span><span class="mi">300</span><span class="p">)</span>
 <span class="n">X</span><span class="p">,</span><span class="n">Z</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">meshgrid</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">z</span><span class="p">)</span>
 <span class="n">r</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">X</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="n">Z</span><span class="p">])</span>
@@ -1458,8 +1373,7 @@ With the call below, you may animate the wave now with different refractive indi
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;x-position [µm]&#39;</span><span class="p">)</span>
 
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-
-</pre></div>
+<br/></pre></div>
 </div>
 </div>
 <div class="nboutput docutils container">
@@ -1484,8 +1398,7 @@ the fact the the intensity is the square of the electric field.</p>
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[14]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">z</span><span class="o">*</span><span class="mf">1e6</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">real</span><span class="p">(</span><span class="n">field</span><span class="p">[:,</span><span class="mi">50</span><span class="p">]))</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">z</span><span class="o">*</span><span class="mf">1e6</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">field</span><span class="p">[:,</span><span class="mi">50</span><span class="p">]),</span><span class="s1">&#39;k--&#39;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;field amplitude&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">z</span><span class="o">*</span><span class="mf">1e6</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">field</span><span class="p">[:,</span><span class="mi">50</span><span class="p">])</span><span class="o">**</span><span class="mi">2</span><span class="p">,</span><span class="s1">&#39;--&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;intensity&#39;</span><span class="p">)</span>
@@ -1503,16 +1416,15 @@ the fact the the intensity is the square of the electric field.</p>
 <img alt="../../_images/notebooks_L9_1_plane_waves_33_0.png" class="no-scaled-link" src="../../_images/notebooks_L9_1_plane_waves_33_0.png" style="width: 766px; height: 334px;" />
 </div>
 </div>
-</div>
-<div class="section" id="Animation">
+</section>
+<section id="Animation">
 <h2>Animation<a class="headerlink" href="#Animation" title="Permalink to this headline">¶</a></h2>
 <p>Of course, we should not miss the animation.</p>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[15]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">display</span><span class="p">(</span><span class="n">canvas</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">canvas</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1526,15 +1438,14 @@ the fact the the intensity is the square of the electric field.</p>
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[16]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">k</span><span class="o">=</span><span class="n">n</span><span class="o">*</span><span class="n">k0</span><span class="o">*</span><span class="n">vec</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">k</span><span class="o">=</span><span class="n">n</span><span class="o">*</span><span class="n">k0</span><span class="o">*</span><span class="n">vec</span>
 <span class="n">time</span><span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mf">5e-14</span><span class="p">,</span><span class="mi">500</span><span class="p">)</span>
 <span class="n">animate</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">time</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
-</div>
-<div class="section" id="Interference-of-two-plane-waves">
+</section>
+<section id="Interference-of-two-plane-waves">
 <h2>Interference of two plane waves<a class="headerlink" href="#Interference-of-two-plane-waves" title="Permalink to this headline">¶</a></h2>
 <p>It is not very difficult to calculate from the definitions we did above now the interference of two plane waves, which have different directions of the wavevector. The total field in space is then just the sum of the two fields</p>
 <p><span class="math">\begin{equation}
@@ -1548,8 +1459,7 @@ I\propto|\vec{E}|^2=|\vec{E}_{1}|^2+|\vec{E}_{2}|^2+ \vec{E}_{1}^{*}\vec{E}_{2}+
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[17]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mf">5e-6</span><span class="p">,</span><span class="mf">5e-6</span><span class="p">,</span><span class="mi">200</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mf">5e-6</span><span class="p">,</span><span class="mf">5e-6</span><span class="p">,</span><span class="mi">200</span><span class="p">)</span>
 <span class="n">z</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mf">10e-6</span><span class="p">,</span><span class="mi">200</span><span class="p">)</span>
 
 <span class="n">X</span><span class="p">,</span><span class="n">Z</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">meshgrid</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">z</span><span class="p">)</span>
@@ -1625,8 +1535,7 @@ I\propto|\vec{E}|^2=|\vec{E}_{1}|^2+|\vec{E}_{2}|^2+ \vec{E}_{1}^{*}\vec{E}_{2}+
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[17]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="mf">1e6</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">field</span><span class="o">.</span><span class="n">transpose</span><span class="p">()[:,</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="mf">1e6</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">field</span><span class="o">.</span><span class="n">transpose</span><span class="p">()[:,</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;distance [µm]&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;intensity&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
@@ -1640,15 +1549,15 @@ I\propto|\vec{E}|^2=|\vec{E}_{1}|^2+|\vec{E}_{2}|^2+ \vec{E}_{1}^{*}\vec{E}_{2}+
 <img alt="../../_images/notebooks_L9_1_plane_waves_42_0.png" class="no-scaled-link" src="../../_images/notebooks_L9_1_plane_waves_42_0.png" style="width: 392px; height: 280px;" />
 </div>
 </div>
-<div class="section" id="Plane-wave-at-a-boundary">
+<section id="Plane-wave-at-a-boundary">
 <h3>Plane wave at a boundary<a class="headerlink" href="#Plane-wave-at-a-boundary" title="Permalink to this headline">¶</a></h3>
 <p>We want to go a bit further now and have a look at the wave at a boundary between vaccum and glass for example. At this boundary, the electromagnetic wave is reflected and refracted such that two new wavevectors arise. These are easily calculated by the law of reflection and the law of refraction. Besides that, also the amplitude of the waves change. To calculate the field we need the so-called Fresnel equations.</p>
-</div>
-</div>
-<div class="section" id="Fresnel-equations">
+</section>
+</section>
+<section id="Fresnel-equations">
 <h2>Fresnel equations<a class="headerlink" href="#Fresnel-equations" title="Permalink to this headline">¶</a></h2>
 <p>When electromagnetic waves hit a boundary, they will be reflected and refracted. The amplitude of the reflected and refracted wave is determined by the refractive index of the two materials, the angles and the polarizations. For the latter we differentiate between a polarization in the incident plane (the p-polarization) and perpendicular to the incident plane (s-polarization).</p>
-<p><img alt="Fresnel" src="../../_images/fresnel.png" /></p>
+<img alt="Fresnel" src="../../_images/fresnel.png" />
 <p>For each of the polarization we in general obtain a coeffcient for the reflection and one for the refraction. To make our calculation a bit simpler, we will assume only s-polarization. Then the two Fresnel coefficients are calculated as</p>
 <p><span class="math">\begin{equation}
 \left( \frac{E_{0t}}{E_{0e}} \right)_s = t_s =\frac{2n_1 \cos{\alpha}}{n_1\cos{\alpha}+n_2\cos{\beta}}
@@ -1662,8 +1571,7 @@ I\propto|\vec{E}|^2=|\vec{E}_{1}|^2+|\vec{E}_{2}|^2+ \vec{E}_{1}^{*}\vec{E}_{2}+
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[29]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="c1">## snells law</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## snells law</span>
 <span class="k">def</span> <span class="nf">snell</span><span class="p">(</span><span class="n">n1</span><span class="p">,</span><span class="n">n2</span><span class="p">,</span><span class="n">alpha</span><span class="p">):</span>
     <span class="n">tmp</span><span class="o">=</span><span class="n">n1</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">alpha</span><span class="p">)</span><span class="o">/</span><span class="n">n2</span>
     <span class="k">return</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arcsin</span><span class="p">(</span><span class="n">tmp</span><span class="p">,</span><span class="n">dtype</span><span class="o">=</span><span class="nb">complex</span><span class="p">))</span>
@@ -1683,8 +1591,7 @@ I\propto|\vec{E}|^2=|\vec{E}_{1}|^2+|\vec{E}_{2}|^2+ \vec{E}_{1}^{*}\vec{E}_{2}+
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[30]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">n1</span><span class="o">=</span><span class="mf">1.5</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">n1</span><span class="o">=</span><span class="mf">1.5</span>
 <span class="n">n2</span><span class="o">=</span><span class="mi">1</span>
 <span class="n">alpha</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
 <span class="n">beta</span><span class="o">=</span><span class="n">snell</span><span class="p">(</span><span class="n">n1</span><span class="p">,</span><span class="n">n2</span><span class="p">,</span><span class="n">alpha</span><span class="p">)</span>
@@ -1712,16 +1619,15 @@ I\propto|\vec{E}|^2=|\vec{E}_{1}|^2+|\vec{E}_{2}|^2+ \vec{E}_{1}^{*}\vec{E}_{2}+
 <img alt="../../_images/notebooks_L9_1_plane_waves_52_0.png" class="no-scaled-link" src="../../_images/notebooks_L9_1_plane_waves_52_0.png" style="width: 706px; height: 276px;" />
 </div>
 </div>
-</div>
-<div class="section" id="Incident-wave">
+</section>
+<section id="Incident-wave">
 <h2>Incident wave<a class="headerlink" href="#Incident-wave" title="Permalink to this headline">¶</a></h2>
 <p>We want to study the electric fields and the intensities at various angles. The most interesting one, is a case where we have total internal reflection. This happens, if light is propagating from the higher refractive index to a lower refractive index. If we start in glass (<span class="math notranslate nohighlight">\(n_1=1.5\)</span>) and transmit to vacuum <span class="math notranslate nohighlight">\(n_2=1\)</span>, then at all angles above <span class="math notranslate nohighlight">\(\theta_{c}=\sin^{-1}(n_2/n_1)=41.810314895778596\)</span> are total internally reflected.</p>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[42]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mf">5e-6</span><span class="p">,</span><span class="mf">5e-6</span><span class="p">,</span><span class="mi">500</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mf">5e-6</span><span class="p">,</span><span class="mf">5e-6</span><span class="p">,</span><span class="mi">500</span><span class="p">)</span>
 <span class="n">z1</span><span class="p">,</span><span class="n">z2</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mf">5e-6</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">250</span><span class="p">),</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mf">5e-6</span><span class="p">,</span><span class="mi">250</span><span class="p">)</span>
 <span class="n">X</span><span class="p">,</span><span class="n">Z1</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">meshgrid</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">z1</span><span class="p">)</span>
 
@@ -1752,8 +1658,7 @@ k_{x,in}=k_{x,r}=k_{x,t}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[43]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">alpha</span><span class="o">=</span><span class="mi">43</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">/</span><span class="mi">180</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">alpha</span><span class="o">=</span><span class="mi">43</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">/</span><span class="mi">180</span>
 </pre></div>
 </div>
 </div>
@@ -1761,8 +1666,7 @@ k_{x,in}=k_{x,r}=k_{x,t}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[44]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">vec</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">alpha</span><span class="p">),</span><span class="mf">0.</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">alpha</span><span class="p">)])</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">vec</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">alpha</span><span class="p">),</span><span class="mf">0.</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">alpha</span><span class="p">)])</span>
 <span class="n">k1</span><span class="o">=</span><span class="mf">1.5</span><span class="o">*</span><span class="n">k0</span><span class="o">*</span><span class="n">vec</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">k1</span><span class="p">,</span><span class="s1">&#39;[1/m]&#39;</span><span class="p">)</span>
 </pre></div>
@@ -1776,16 +1680,15 @@ k_{x,in}=k_{x,r}=k_{x,t}
 [12082111.11503364        0.         12956477.9108035 ] [1/m]
 </pre></div></div>
 </div>
-</div>
-<div class="section" id="Reflected-wave">
+</section>
+<section id="Reflected-wave">
 <h2>Reflected wave<a class="headerlink" href="#Reflected-wave" title="Permalink to this headline">¶</a></h2>
 <p>For the reflected wave the z-component of the wavevector is just flipped in sign, e.g. <span class="math notranslate nohighlight">\(k_{z,r}=-k_{z,in}\)</span>.</p>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[45]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">k2</span><span class="o">=</span><span class="mf">1.5</span><span class="o">*</span><span class="n">k0</span><span class="o">*</span><span class="n">vec</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">k2</span><span class="o">=</span><span class="mf">1.5</span><span class="o">*</span><span class="n">k0</span><span class="o">*</span><span class="n">vec</span>
 <span class="n">k2</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">=</span><span class="n">k2</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">*-</span><span class="mi">1</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">k2</span><span class="p">,</span><span class="s1">&#39;[1/m]&#39;</span><span class="p">)</span>
 </pre></div>
@@ -1799,8 +1702,8 @@ k_{x,in}=k_{x,r}=k_{x,t}
 [ 12082111.11503364         0.         -12956477.9108035 ] [1/m]
 </pre></div></div>
 </div>
-</div>
-<div class="section" id="Refracted-wave">
+</section>
+<section id="Refracted-wave">
 <h2>Refracted wave<a class="headerlink" href="#Refracted-wave" title="Permalink to this headline">¶</a></h2>
 <p>The magnitude of the z-component of the transmitted wave can be obtained from the conservation of momentum. The momentum of the wave is proportional to the magnitude of the wavevector on both sides.</p>
 <p><span class="math">\begin{equation}
@@ -1819,8 +1722,7 @@ k_{0z,t}=\pm \frac{1}{n_{1}}\sqrt{n_2^2 k_{0z,in}^2 -(n_{1}^2-n_{2}^2)k_{0x}^{2}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[46]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">k3</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="mi">3</span><span class="p">],</span><span class="n">dtype</span><span class="o">=</span><span class="nb">complex</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">k3</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="mi">3</span><span class="p">],</span><span class="n">dtype</span><span class="o">=</span><span class="nb">complex</span><span class="p">)</span>
 <span class="n">k3</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">=</span><span class="n">k1</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 <span class="n">k3</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">n2</span><span class="o">**</span><span class="mi">2</span><span class="o">*</span><span class="n">k1</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="p">(</span><span class="n">n2</span><span class="o">**</span><span class="mi">2</span><span class="o">-</span><span class="n">n1</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">k1</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span><span class="p">,</span><span class="n">dtype</span><span class="o">=</span><span class="nb">complex</span><span class="p">)</span><span class="o">/</span><span class="n">n1</span>
 
@@ -1842,8 +1744,7 @@ k_{0z,t}=\pm \frac{1}{n_{1}}\sqrt{n_2^2 k_{0z,in}^2 -(n_{1}^2-n_{2}^2)k_{0x}^{2}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[47]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">field</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="mi">500</span><span class="p">,</span><span class="mi">500</span><span class="p">],</span><span class="n">dtype</span><span class="o">=</span><span class="nb">complex</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">field</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="mi">500</span><span class="p">,</span><span class="mi">500</span><span class="p">],</span><span class="n">dtype</span><span class="o">=</span><span class="nb">complex</span><span class="p">)</span>
 <span class="n">field1</span><span class="o">=</span><span class="n">plane_wave</span><span class="p">(</span><span class="n">k1</span><span class="p">,</span><span class="n">omega0</span><span class="p">,</span><span class="n">r1</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
 <span class="n">field2</span><span class="o">=</span><span class="n">plane_wave</span><span class="p">(</span><span class="n">k2</span><span class="p">,</span><span class="n">omega0</span><span class="p">,</span><span class="n">r1</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
 <span class="n">field3</span><span class="o">=</span><span class="n">plane_wave</span><span class="p">(</span><span class="n">k3</span><span class="p">,</span><span class="n">omega0</span><span class="p">,</span><span class="n">r2</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
@@ -1862,8 +1763,7 @@ k_{0z,t}=\pm \frac{1}{n_{1}}\sqrt{n_2^2 k_{0z,in}^2 -(n_{1}^2-n_{2}^2)k_{0x}^{2}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[48]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mf">5.5</span><span class="p">))</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mf">5.5</span><span class="p">))</span>
 <span class="n">extent</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">z1</span><span class="p">)</span><span class="o">*</span><span class="mf">1e6</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">z2</span><span class="p">)</span><span class="o">*</span><span class="mf">1e6</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">*</span><span class="mf">1e6</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">*</span><span class="mf">1e6</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">real</span><span class="p">(</span><span class="n">field</span><span class="o">.</span><span class="n">transpose</span><span class="p">()),</span><span class="n">extent</span><span class="o">=</span><span class="n">extent</span><span class="p">,</span><span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;seismic&#39;</span><span class="p">)</span>
@@ -1894,8 +1794,7 @@ k_{0z,t}=\pm \frac{1}{n_{1}}\sqrt{n_2^2 k_{0z,in}^2 -(n_{1}^2-n_{2}^2)k_{0x}^{2}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[19]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">canvas</span> <span class="o">=</span> <span class="n">Canvas</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span><span class="n">sync_image_data</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">canvas</span> <span class="o">=</span> <span class="n">Canvas</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span><span class="n">sync_image_data</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">display</span><span class="p">(</span><span class="n">canvas</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -1910,8 +1809,7 @@ k_{0z,t}=\pm \frac{1}{n_{1}}\sqrt{n_2^2 k_{0z,in}^2 -(n_{1}^2-n_{2}^2)k_{0x}^{2}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[20]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="k">def</span> <span class="nf">animate</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">time</span><span class="p">):</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">animate</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">time</span><span class="p">):</span>
     <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">time</span><span class="p">:</span>
         <span class="n">field</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="mi">300</span><span class="p">,</span><span class="mi">300</span><span class="p">],</span><span class="n">dtype</span><span class="o">=</span><span class="nb">complex</span><span class="p">)</span>
         <span class="n">field1</span><span class="o">=</span><span class="n">plane_wave</span><span class="p">(</span><span class="n">k1</span><span class="p">,</span><span class="n">omega0</span><span class="p">,</span><span class="n">r1</span><span class="p">,</span><span class="n">t</span><span class="p">)</span>
@@ -1937,8 +1835,7 @@ k_{0z,t}=\pm \frac{1}{n_{1}}\sqrt{n_2^2 k_{0z,in}^2 -(n_{1}^2-n_{2}^2)k_{0x}^{2}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[21]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">time</span><span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mf">1e-14</span><span class="p">,</span><span class="mi">300</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">time</span><span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mf">1e-14</span><span class="p">,</span><span class="mi">300</span><span class="p">)</span>
 <span class="n">animate</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">time</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -1970,8 +1867,7 @@ k_{0z,t}=\pm \frac{1}{n_{1}}\sqrt{n_2^2 k_{0z,in}^2 -(n_{1}^2-n_{2}^2)k_{0x}^{2}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[51]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">n</span><span class="o">=</span><span class="mi">500</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">n</span><span class="o">=</span><span class="mi">500</span>
 <span class="n">field</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="n">n</span><span class="p">,</span><span class="n">n</span><span class="p">],</span><span class="n">dtype</span><span class="o">=</span><span class="nb">complex</span><span class="p">)</span>
 <span class="n">field1</span><span class="o">=</span><span class="n">plane_wave</span><span class="p">(</span><span class="n">k1</span><span class="p">,</span><span class="n">omega0</span><span class="p">,</span><span class="n">r1</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
 <span class="n">field2</span><span class="o">=</span><span class="n">plane_wave</span><span class="p">(</span><span class="n">k2</span><span class="p">,</span><span class="n">omega0</span><span class="p">,</span><span class="n">r1</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
@@ -2012,73 +1908,46 @@ k_{0z,t}=\pm \frac{1}{n_{1}}\sqrt{n_2^2 k_{0z,in}^2 -(n_{1}^2-n_{2}^2)k_{0x}^{2}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>
 </pre></div>
 </div>
 </div>
 <script type="application/vnd.jupyter.widget-state+json">
 {"state": {"04bb0efa2c484049ba4fb78ccad78914": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {}}, "1d1b669d89e5486b8530719b68a54e32": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {}}, "4a58358b376b408c828ac27f5e0b5e76": {"model_module": "ipycanvas", "model_module_version": "^0.4.3", "model_name": "CanvasModel", "state": {"_model_module_version": "^0.4.3", "_view_module_version": "^0.4.3", "height": 300, "layout": "IPY_MODEL_1d1b669d89e5486b8530719b68a54e32", "sync_image_data": true, "width": 300}}, "8c9bfba5d94a447684757a71be4f99ef": {"buffers": [{"data": "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", "encoding": "base64", "path": ["image_data"]}], "model_module": "ipycanvas", "model_module_version": "^0.4.3", "model_name": "CanvasModel", "state": {"_model_module_version": "^0.4.3", "_view_module_version": "^0.4.3", "height": 300, "image_data": {}, "layout": "IPY_MODEL_04bb0efa2c484049ba4fb78ccad78914", "sync_image_data": true, "width": 300}}}, "version_major": 2, "version_minor": 0}
-</script></div>
-</div>
+</script></section>
+</section>
 
 
            </div>
-           
           </div>
-          <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="2_spherical_waves.html" class="btn btn-neutral float-right" title="Spherical waves" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="../../lectures/L9/overview_9.html" class="btn btn-neutral float-left" title="Lecture Contents" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../../lectures/L9/overview_9.html" class="btn btn-neutral float-left" title="Lecture Contents" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="2_spherical_waves.html" class="btn btn-neutral float-right" title="Spherical waves" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
-    <p>
-        
-        &copy; Copyright 2021, Frank Cichos
-      <span class="lastupdated">
-        Last updated on Jul 19, 2021.
-      </span>
-
-    </p>
+    <p>&#169; Copyright 2021, Frank Cichos.
+      <span class="lastupdated">Last updated on Mar 24, 2022.
+      </span></p>
   </div>
-    
-    
-    
-    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
-    
-    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
-    
-    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
 
 </footer>
-
         </div>
       </div>
-
     </section>
-
   </div>
-  
-
-  <script type="text/javascript">
+  <script>
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-
-  
-  
-    
-   
+  </script> 
 
 </body>
 </html>

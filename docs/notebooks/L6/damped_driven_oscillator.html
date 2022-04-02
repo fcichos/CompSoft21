@@ -1,73 +1,38 @@
-
-
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Damped driven oscillator &mdash; Introduction to Computer-based Physical Modeling 21 1 documentation</title>
-  
-
-  
-  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
-
-  
-  
-  
-  
-
-  
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="../../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-    
-      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
         <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-        <script type="text/x-mathjax-config">MathJax.Hub.Config({"TeX": {"equationNumbers": {"autoNumber": "AMS", "useLabelIds": true}}, "tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "ignoreClass": "document", "processClass": "math|output_area"}})</script>
         <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.0/dist/embed-amd.js"></script>
-    
-    <script type="text/javascript" src="../../_static/js/theme.js"></script>
-
-    
+        <script type="text/x-mathjax-config">MathJax.Hub.Config({"TeX": {"equationNumbers": {"autoNumber": "AMS", "useLabelIds": true}}, "tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "ignoreClass": "tex2jax_ignore|mathjax_ignore|document", "processClass": "tex2jax_process|mathjax_process|math|output_area"}})</script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" /> 
 </head>
 
-<body class="wy-body-for-nav">
-
-   
+<body class="wy-body-for-nav"> 
   <div class="wy-grid-for-nav">
-    
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-          
-
-          
-            <a href="../../index.html" class="icon icon-home" alt="Documentation Home"> Introduction to Computer-based Physical Modeling 21
-          
-
-          
-            
+            <a href="../../index.html" class="icon icon-home"> Introduction to Computer-based Physical Modeling 21
             <img src="../../_static/mona_logo.png" class="logo" alt="Logo"/>
-          
           </a>
-
-          
-            
-            
-          
-
-          
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -75,19 +40,8 @@
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
-
-          
-        </div>
-
-        
-        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-          
-            
-            
-              
-            
-            
-              <p class="caption"><span class="caption-text">Course Information:</span></p>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Course Information:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../course-info/website.html">This Website</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../course-info/schedule.html">Course Schedule</a></li>
@@ -102,7 +56,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../course-info/instructor.html">Instructor</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Jupyter Notebooks:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Jupyter Notebooks:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/Intro/overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Intro/Introduction2Jupyter.html">Introduction to Jupyter</a><ul>
@@ -131,7 +85,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 1:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 1:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L1/overview_1.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L1/1_variables.html">Variables and types</a><ul>
@@ -162,7 +116,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L1/assignment_1.html">Exercise 1</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 2:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 2:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L2/overview_2.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L2/1_numpy.html">NumPy arrays</a><ul>
@@ -252,7 +206,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L2/assignment_2.html">Exercise 2</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 3:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 3:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L3/overview_3.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L3/1_input_output.html">Input and output</a><ul>
@@ -305,7 +259,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../L3/4_exceptions.html">Exceptions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L3/assignment_3.html">Exercise 3</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 4:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 4:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L4/overview_4.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L4/1_classes.html">Classes and Objects</a><ul>
@@ -340,7 +294,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L4/assignment_4.html">Exercise 4</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 5:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 5:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L5/overview_5.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L5/1_differentiation.html">Numerical Differentiation</a><ul>
@@ -397,7 +351,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 6:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 6:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L6/overview_6.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="1_covid19.html">COVID19</a><ul>
@@ -455,7 +409,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 7:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 7:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L7/overview_7.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L7/1_spring_pendulum.html">Spring Pendulum</a><ul>
@@ -506,7 +460,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L7/assignment_7.html">Exercise 7</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 8:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 8:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L8/overview_8.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L8/1_curve_fitting.html">Curve fitting</a><ul>
@@ -522,7 +476,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 9:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 9:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L9/overview_9.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L9/1_plane_waves.html">Plane Waves</a><ul>
@@ -564,7 +518,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L9/assignment_9.html">Exercise 9</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 10:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 10:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L10/overview_10.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L10/1_quantum_mechanics.html">Quantum Mechanics</a><ul>
@@ -617,7 +571,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 11:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 11:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L11/overview_11.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L11/1_quantum_dynamics.html">Time Dependent Quantum Mechanics</a><ul>
@@ -668,7 +622,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 12:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 12:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L12/overview_12.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L12/1_hydrodynamics.html">Hydrodynamics</a><ul>
@@ -712,7 +666,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 13:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 13:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L13/overview_13.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L13/1_deep_learning.html">Neural Networks</a><ul>
@@ -760,7 +714,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 14:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 14:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L14/overview_14.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L14/1_CNN.html">Convolutional Neural Networks</a><ul>
@@ -800,7 +754,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Lecture 15:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Lecture 15:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../lectures/L15/overview_15.html">Lecture Contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../L15/1_python_hardware.html">Python and Hardware</a><ul>
@@ -827,91 +781,64 @@
 </li>
 </ul>
 
-            
-          
         </div>
-        
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" aria-label="top navigation">
-        
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="../../index.html">Introduction to Computer-based Physical Modeling 21</a>
-        
       </nav>
 
-
       <div class="wy-nav-content">
-        
         <div class="rst-content">
-        
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div role="navigation" aria-label="breadcrumbs navigation">
-
+          <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-    
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
-        
       <li>Damped driven oscillator</li>
-    
-    
       <li class="wy-breadcrumbs-aside">
-        
-            
-            
               <a href="https://github.com/fcichos/CompSoft21/blob/main//source/notebooks/L6/damped_driven_oscillator.ipynb" class="fa fa-github"> Edit on GitHub</a>
-            
-          
-        
       </li>
-    
   </ul>
-
-  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-            
+             
   
 <style>
 /* CSS for nbsphinx extension */
 
 /* remove conflicting styling from Sphinx themes */
-div.nbinput.container,
-div.nbinput.container div.prompt,
-div.nbinput.container div.input_area,
-div.nbinput.container div[class*=highlight],
-div.nbinput.container div[class*=highlight] pre,
-div.nboutput.container,
-div.nboutput.container div.prompt,
-div.nboutput.container div.output_area,
-div.nboutput.container div[class*=highlight],
-div.nboutput.container div[class*=highlight] pre {
-    background: none;
+div.nbinput.container div.prompt *,
+div.nboutput.container div.prompt *,
+div.nbinput.container div.input_area pre,
+div.nboutput.container div.output_area pre,
+div.nbinput.container div.input_area .highlight,
+div.nboutput.container div.output_area .highlight {
     border: none;
-    padding: 0 0;
+    padding: 0;
     margin: 0;
     box-shadow: none;
+}
+
+div.nbinput.container > div[class*=highlight],
+div.nboutput.container > div[class*=highlight] {
+    margin: 0;
+}
+
+div.nbinput.container div.prompt *,
+div.nboutput.container div.prompt * {
+    background: none;
+}
+
+div.nboutput.container div.output_area .highlight,
+div.nboutput.container div.output_area pre {
+    background: unset;
+}
+
+div.nboutput.container div.output_area div.highlight {
+    color: unset;  /* override Pygments text color */
 }
 
 /* avoid gaps between output lines */
@@ -1012,7 +939,7 @@ div.nboutput.container div.output_area {
 div.nbinput.container div.input_area {
     border: 1px solid #e0e0e0;
     border-radius: 2px;
-    background: #f5f5f5;
+    /*background: #f5f5f5;*/
 }
 
 /* override MathJax center alignment in output cells */
@@ -1078,6 +1005,7 @@ div.nboutput.container div.output_area.rendered_html,
 div.nboutput.container div.output_area > div.output_javascript,
 div.nboutput.container div.output_area:not(.rendered_html) > img{
     padding: 5px;
+    margin: 0;
 }
 
 /* fix copybtn overflow problem in chromium (needed for 'sphinx_copybutton') */
@@ -1087,7 +1015,7 @@ div.nboutput.container div.output_area > div[class^='highlight']{
 }
 
 /* hide copybtn icon on prompts (needed for 'sphinx_copybutton') */
-.prompt a.copybtn {
+.prompt .copybtn {
     display: none;
 }
 
@@ -1148,17 +1076,16 @@ div.rendered_html tbody tr:hover {
 }
 </style>
 <div class="admonition note">
-<p>This page was generated from <cite>source/notebooks/L6/damped_driven_oscillator.ipynb</cite>.
-<span class="raw-html"><br/><a href="https://mybinder.org/v2/gh/fcichos/CompSoft21/main?urlpath=tree/source/notebooks/L6/damped_driven_oscillator.ipynb"><img alt="Binder badge" src="https://img.shields.io/badge/launch-full%20binder-red.svg" style="vertical-align:text-bottom"></a></span></p>
+<p>This page was generated from <cite>/home/lectures/CompSoft21/source/notebooks/L6/damped_driven_oscillator.ipynb</cite>.
+<span class="raw-html"><br/><a href="https://mybinder.org/v2/gh/fcichos/CompSoft21/main?urlpath=tree//home/lectures/CompSoft21/source/notebooks/L6/damped_driven_oscillator.ipynb"><img alt="Binder badge" src="https://img.shields.io/badge/launch-full%20binder-red.svg" style="vertical-align:text-bottom"></a></span></p>
 </div>
-<div class="section" id="Damped-driven-oscillator">
+<section id="Damped-driven-oscillator">
 <h1>Damped driven oscillator<a class="headerlink" href="#Damped-driven-oscillator" title="Permalink to this headline">¶</a></h1>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">from</span> <span class="nn">scipy.integrate</span> <span class="kn">import</span> <span class="n">odeint</span>
 
@@ -1194,7 +1121,7 @@ div.rendered_html tbody tr:hover {
 </pre></div>
 </div>
 </div>
-<div class="section" id="Damped-Driven-Harmonic-Oscillator">
+<section id="Damped-Driven-Harmonic-Oscillator">
 <h2>Damped Driven Harmonic Oscillator<a class="headerlink" href="#Damped-Driven-Harmonic-Oscillator" title="Permalink to this headline">¶</a></h2>
 <p>To have something more complicated we have a look at the damped driven harmonic oscialltor which is described by the following differential equation.</p>
 <p><span class="math">\begin{equation}\label{hosc}
@@ -1205,16 +1132,16 @@ div.rendered_html tbody tr:hover {
 F(t)=k X_{0}\cos(\omega t)
 \end{equation}</span></p>
 <p>where <span class="math notranslate nohighlight">\(X_{0}\)</span> could be a driving pistons amplitude. Thus <span class="math notranslate nohighlight">\(\beta=\omega_0^{2}X_{0}\)</span>.</p>
-<p><img alt="Figure 1" src="notebooks/L6/piston.png" /></p>
+<img alt="Figure 1" src="notebooks/L6/piston.png" />
 <p>From this equation of motion, we can define our <em>derivs</em> function:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">pendulum_def</span><span class="p">(</span><span class="n">state</span> <span class="p">,</span> <span class="n">time</span><span class="p">):</span>
-    <span class="n">g0</span> <span class="o">=</span> <span class="n">state</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>   <span class="c1"># velocity</span>
-    <span class="n">g1</span> <span class="o">=</span> <span class="o">-</span><span class="n">k</span><span class="o">/</span><span class="n">m</span> <span class="o">*</span> <span class="n">state</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="n">gamma</span><span class="o">*</span><span class="n">state</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">beta</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">omega</span> <span class="o">*</span> <span class="n">time</span><span class="p">)</span> <span class="c1">#acceleration</span>
-    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">g0</span><span class="p">,</span> <span class="n">g1</span><span class="p">])</span>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>def pendulum_def(state , time):
+    g0 = state[1]   # velocity
+    g1 = -k/m * state[0] - gamma*state[1] + beta*np.cos(omega * time) #acceleration
+    return np.array([g0, g1])
 </pre></div>
 </div>
 <p>This is our version of the <em>derivs</em> function which we are going to use with the <em>SciPy</em> solver and plot the result for different parameters. Vary the damping parameter <span class="math notranslate nohighlight">\(\gamma\)</span>.</p>
-<div class="section" id="The-homogeneous-solution-of-the-oscillator">
+<section id="The-homogeneous-solution-of-the-oscillator">
 <h3>The homogeneous solution of the oscillator<a class="headerlink" href="#The-homogeneous-solution-of-the-oscillator" title="Permalink to this headline">¶</a></h3>
 <p>We may first explore the homogeneous solution of our damped harmonic oscillator. The homogeneous solution means, we do not have a driving force and you might remember your mechanics lectures that in this case we can identify three different solutions comprising the</p>
 <ul class="simple">
@@ -1227,24 +1154,21 @@ F(t)=k X_{0}\cos(\omega t)
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[163]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">k</span> <span class="o">=</span> <span class="mf">1.8</span> <span class="c1"># spring constant</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">k</span> <span class="o">=</span> <span class="mf">1.8</span> <span class="c1"># spring constant</span>
 <span class="n">m</span><span class="o">=</span><span class="mf">10.0</span> <span class="c1"># mass</span>
 <span class="n">beta</span><span class="o">=</span><span class="mi">0</span> <span class="c1"># driving amplitude, no driving first</span>
 <span class="n">omega_0</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">k</span><span class="o">/</span><span class="n">m</span><span class="p">)</span> <span class="c1"># natural frequency</span>
 <span class="n">gamma</span><span class="o">=</span><span class="mf">0.5</span><span class="o">*</span><span class="n">omega_0</span><span class="c1"># oscillating solution</span>
 <span class="c1">#gamma=2*omega_0# aperiodic limit</span>
 <span class="c1">#gamma=3*omega_0# creeping solution</span>
-
-</pre></div>
+<br/></pre></div>
 </div>
 </div>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[165]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="c1">#pendulum derivs function</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#pendulum derivs function</span>
 
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">from</span> <span class="nn">scipy.integrate</span> <span class="kn">import</span> <span class="n">odeint</span>
@@ -1289,33 +1213,29 @@ F(t)=k X_{0}\cos(\omega t)
 <img alt="../../_images/notebooks_L6_damped_driven_oscillator_6_0.png" class="no-scaled-link" src="../../_images/notebooks_L6_damped_driven_oscillator_6_0.png" style="width: 542px; height: 389px;" />
 </div>
 </div>
-</div>
-<div class="section" id="The-driven-solution-of-the-oscillator">
+</section>
+<section id="The-driven-solution-of-the-oscillator">
 <h3>The driven solution of the oscillator<a class="headerlink" href="#The-driven-solution-of-the-oscillator" title="Permalink to this headline">¶</a></h3>
 <p>Now we may add the driving to the solution und study the difference also for the three different case shown for the homogeneous solution.</p>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[184]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">k</span> <span class="o">=</span> <span class="mf">9.8</span> <span class="c1"># spring constant</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">k</span> <span class="o">=</span> <span class="mf">9.8</span> <span class="c1"># spring constant</span>
 <span class="n">m</span><span class="o">=</span><span class="mf">10.0</span> <span class="c1"># mass</span>
 <span class="n">beta</span><span class="o">=</span><span class="mf">0.1</span> <span class="c1"># driving amplitude, no driving first</span>
 <span class="n">omega_0</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">k</span><span class="o">/</span><span class="n">m</span><span class="p">)</span> <span class="c1"># natural frequency</span>
 <span class="c1">#gamma=0.5*omega_0# oscillating solution</span>
 <span class="c1">#gamma=2*omega_0# aperiodic limit</span>
 <span class="n">gamma</span><span class="o">=</span><span class="mi">3</span><span class="o">*</span><span class="n">omega_0</span><span class="c1"># creeping solution</span>
-
-
-</pre></div>
+<br/><br/></pre></div>
 </div>
 </div>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[183]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="c1">#pendulum derivs function</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#pendulum derivs function</span>
 
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">from</span> <span class="nn">scipy.integrate</span> <span class="kn">import</span> <span class="n">odeint</span>
@@ -1351,8 +1271,7 @@ F(t)=k X_{0}\cos(\omega t)
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;x(t)&#39;</span><span class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-
-</pre></div>
+<br/></pre></div>
 </div>
 </div>
 <div class="nboutput nblast docutils container">
@@ -1383,16 +1302,15 @@ x(t)=x(0)\cos(\omega_0 t)e^{-\frac{\gamma}{2}t}+x_{0}\cos(\omega t-\phi)
 </dl>
 <p>end{equation}`</p>
 <p>The harmonic oscillator is a working horse for many problems in physics. If you describe just the motion of a spring or the oscillation of a transition dipole that radiates. All of those things may be approximated by a simple harmonic oscillator and give some insight.</p>
-</div>
-<div class="section" id="Analytical-solution">
+</section>
+<section id="Analytical-solution">
 <h3>Analytical solution<a class="headerlink" href="#Analytical-solution" title="Permalink to this headline">¶</a></h3>
 <p>The two functions below deliver the analytical solution of the damped harmonic oscillator problem.</p>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[73]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="k">def</span> <span class="nf">a_amplitude</span><span class="p">(</span><span class="n">beta</span><span class="p">,</span><span class="n">omega</span><span class="p">,</span> <span class="n">omega_0</span><span class="p">,</span><span class="n">gamma</span><span class="p">):</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">a_amplitude</span><span class="p">(</span><span class="n">beta</span><span class="p">,</span><span class="n">omega</span><span class="p">,</span> <span class="n">omega_0</span><span class="p">,</span><span class="n">gamma</span><span class="p">):</span>
     <span class="k">return</span><span class="p">(</span><span class="n">beta</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="n">omega_0</span><span class="o">**</span><span class="mi">2</span><span class="o">-</span><span class="n">omega</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="n">gamma</span><span class="o">**</span><span class="mi">2</span><span class="o">*</span><span class="n">omega</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span>
 
 <span class="k">def</span> <span class="nf">a_phase</span><span class="p">(</span><span class="n">omega</span><span class="p">,</span><span class="n">omega_0</span><span class="p">,</span><span class="n">gamma</span><span class="p">):</span>
@@ -1400,12 +1318,12 @@ x(t)=x(0)\cos(\omega_0 t)e^{-\frac{\gamma}{2}t}+x_{0}\cos(\omega t-\phi)
 </pre></div>
 </div>
 </div>
-</div>
-</div>
+</section>
+</section>
 <hr class="docutils" />
-<div class="section" id="Amplitude-and-Phase">
+<section id="Amplitude-and-Phase">
 <h2>Amplitude and Phase<a class="headerlink" href="#Amplitude-and-Phase" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="Analysis-of-the-numerical-solution">
+<section id="Analysis-of-the-numerical-solution">
 <h3>Analysis of the numerical solution<a class="headerlink" href="#Analysis-of-the-numerical-solution" title="Permalink to this headline">¶</a></h3>
 <p>We now have calculated the position and velocity of the damped driven oscillator. But we would like to know some more details. The analytical solution gives us an idea about the amplitude and the phase of the sustaining driven oscillation. We would therefore like to calculate the phase and amplitude as a function of the driving frequency (<span class="math notranslate nohighlight">\(\omega\)</span>). Both parameters can be calculated easily from a Fourier transform. Since we want to introduce the Fourier transform later, we think about a
 simpler solution. Well, the simpler solution is nothing else than a modified version of the Fourier transform. The analysis we would like to do is based on the trigonometric addition formula</p>
@@ -1429,8 +1347,7 @@ x_{0}=\sqrt{x_{0}^2\sin^2(\phi)+x_{0}^2\cos^2(\phi)}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[74]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="c1">#pendulum derivs function</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#pendulum derivs function</span>
 
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">from</span> <span class="nn">scipy.integrate</span> <span class="kn">import</span> <span class="n">odeint</span>
@@ -1459,15 +1376,14 @@ x_{0}=\sqrt{x_{0}^2\sin^2(\phi)+x_{0}^2\cos^2(\phi)}
 </pre></div>
 </div>
 </div>
-</div>
-<div class="section" id="calculate-the-analytical-data">
+</section>
+<section id="calculate-the-analytical-data">
 <h3>calculate the analytical data<a class="headerlink" href="#calculate-the-analytical-data" title="Permalink to this headline">¶</a></h3>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[75]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">k</span> <span class="o">=</span> <span class="mf">9.8</span> <span class="c1"># spring constant</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">k</span> <span class="o">=</span> <span class="mf">9.8</span> <span class="c1"># spring constant</span>
 <span class="n">m</span><span class="o">=</span><span class="mf">10.0</span> <span class="c1"># mass</span>
 <span class="n">gamma</span><span class="o">=</span><span class="mf">0.2</span><span class="c1"># damping constant</span>
 <span class="n">beta</span><span class="o">=</span><span class="mf">0.1</span> <span class="c1"># driving amplitude</span>
@@ -1479,22 +1395,20 @@ x_{0}=\sqrt{x_{0}^2\sin^2(\phi)+x_{0}^2\cos^2(\phi)}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[76]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">omega</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mf">0.02</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">omega</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mf">0.02</span><span class="p">)</span>
 <span class="n">x0</span><span class="o">=</span><span class="n">a_amplitude</span><span class="p">(</span><span class="n">beta</span><span class="p">,</span><span class="n">omega</span><span class="p">,</span> <span class="n">omega_0</span><span class="p">,</span><span class="n">gamma</span><span class="p">)</span>
 <span class="n">phi</span><span class="o">=</span><span class="n">a_phase</span><span class="p">(</span><span class="n">omega</span><span class="p">,</span><span class="n">omega_0</span><span class="p">,</span><span class="n">gamma</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
-</div>
-<div class="section" id="calculate-the-numerical-data">
+</section>
+<section id="calculate-the-numerical-data">
 <h3>calculate the numerical data<a class="headerlink" href="#calculate-the-numerical-data" title="Permalink to this headline">¶</a></h3>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[77]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">n_phi</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">omega</span><span class="p">))</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">n_phi</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">omega</span><span class="p">))</span>
 <span class="n">n_x0</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">omega</span><span class="p">))</span>
 
 <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">omega</span><span class="p">)):</span>
@@ -1509,19 +1423,17 @@ x_{0}=\sqrt{x_{0}^2\sin^2(\phi)+x_{0}^2\cos^2(\phi)}
     <span class="n">ss</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="n">N0</span><span class="p">:</span><span class="n">N0</span><span class="o">+</span><span class="n">dN</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">omega</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">*</span> <span class="n">time</span><span class="p">[</span><span class="n">N0</span><span class="p">:</span><span class="n">N0</span><span class="o">+</span><span class="n">dN</span><span class="p">]))</span><span class="o">*</span><span class="p">(</span><span class="n">time</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">-</span><span class="n">time</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
     <span class="n">n_phi</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="o">=</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arctan2</span><span class="p">(</span><span class="n">ss</span><span class="p">,</span><span class="n">cs</span><span class="p">)</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">)</span>
     <span class="n">n_x0</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="o">=</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">cs</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="n">ss</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span>
-
-</pre></div>
+<br/></pre></div>
 </div>
 </div>
-</div>
-<div class="section" id="plot-the-analytical-and-numerical-data">
+</section>
+<section id="plot-the-analytical-and-numerical-data">
 <h3>plot the analytical and numerical data<a class="headerlink" href="#plot-the-analytical-and-numerical-data" title="Permalink to this headline">¶</a></h3>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[78]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
 
 <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;normalized amplitude&#39;</span><span class="p">)</span>
@@ -1554,10 +1466,10 @@ x_{0}=\sqrt{x_{0}^2\sin^2(\phi)+x_{0}^2\cos^2(\phi)}
 </div>
 <hr class="docutils" />
 <p><strong>Play Around</strong> Play around with the above analysis to see what happens if you change the damping <span class="math notranslate nohighlight">\(\gamma\)</span> for example. You should also notice, that our simple analsis of phase and amplitude fails at certain points. ***</p>
-</div>
-</div>
+</section>
+</section>
 <hr class="docutils" />
-<div class="section" id="Energy-and-driving-power">
+<section id="Energy-and-driving-power">
 <h2>Energy and driving power<a class="headerlink" href="#Energy-and-driving-power" title="Permalink to this headline">¶</a></h2>
 <p>The kinetic and potential energy can be calculated as a function of time by</p>
 <p><span class="math">\begin{equation}
@@ -1575,25 +1487,21 @@ E_{tot}=E_{kin}+E_{pot}
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[197]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">k</span> <span class="o">=</span> <span class="mf">2.8</span> <span class="c1"># spring constant</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">k</span> <span class="o">=</span> <span class="mf">2.8</span> <span class="c1"># spring constant</span>
 <span class="n">m</span><span class="o">=</span><span class="mf">10.0</span> <span class="c1"># mass</span>
 <span class="n">beta</span><span class="o">=</span><span class="mf">0.1</span><span class="c1"># driving amplitude</span>
 <span class="n">omega_0</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">k</span><span class="o">/</span><span class="n">m</span><span class="p">)</span> <span class="c1"># natural frequency</span>
 <span class="c1">#gamma=0.5*omega_0# oscillating solution</span>
 <span class="n">gamma</span><span class="o">=</span><span class="mi">2</span><span class="o">*</span><span class="n">omega_0</span><span class="c1"># aperiodic limit</span>
 <span class="c1">#gamma=3*omega_0# creeping solution</span>
-
-
-</pre></div>
+<br/><br/></pre></div>
 </div>
 </div>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[198]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="c1">#pendulum derivs function</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#pendulum derivs function</span>
 
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">from</span> <span class="nn">scipy.integrate</span> <span class="kn">import</span> <span class="n">odeint</span>
@@ -1618,20 +1526,17 @@ E_{tot}=E_{kin}+E_{pot}
     <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">g0</span><span class="p">,</span> <span class="n">g1</span><span class="p">])</span>
 
 <span class="n">answer</span> <span class="o">=</span> <span class="n">odeint</span><span class="p">(</span> <span class="n">pendulum_def</span><span class="p">,</span> <span class="n">y</span> <span class="p">,</span> <span class="n">time</span> <span class="p">)</span>
-
-
-</pre></div>
+<br/><br/></pre></div>
 </div>
 </div>
 <hr class="docutils" />
-<div class="section" id="Energy">
+<section id="Energy">
 <h3>Energy<a class="headerlink" href="#Energy" title="Permalink to this headline">¶</a></h3>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[199]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">fig</span><span class="o">=</span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">6</span><span class="p">)</span> <span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span><span class="o">=</span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">6</span><span class="p">)</span> <span class="p">)</span>
 <span class="n">e_pot</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span class="n">answer</span><span class="p">[:,</span><span class="mi">0</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span><span class="o">/</span><span class="mi">2</span>
 <span class="n">e_kin</span><span class="o">=</span><span class="n">m</span><span class="o">*</span><span class="n">answer</span><span class="p">[:,</span><span class="mi">1</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span><span class="o">/</span><span class="mi">2</span>
 <span class="n">e_tot</span><span class="o">=</span><span class="n">e_pot</span><span class="o">+</span><span class="n">e_kin</span>
@@ -1656,8 +1561,8 @@ E_{tot}=E_{kin}+E_{pot}
 </div>
 <hr class="docutils" />
 <p><strong>Play Around</strong> Change some of the parameters in the above script, i.e. to switch of driving. You may also want to have a look at different driving frequencies. Note that the resonance shall be at <span class="math notranslate nohighlight">\(\Omega=0.98\)</span>. Think about the solutions and why it is like that. ***</p>
-</div>
-<div class="section" id="Driving-Power">
+</section>
+<section id="Driving-Power">
 <h3>Driving Power<a class="headerlink" href="#Driving-Power" title="Permalink to this headline">¶</a></h3>
 <p>The driving power that is absorbed by the system can be obtained from</p>
 <p><span class="math">\begin{equation}
@@ -1670,27 +1575,25 @@ P&amp;=&amp;- mbeta x_{0}omega cos(omega t) sin(omega t -phi)\</p>
 <div><p>&amp;=&amp; - mbeta x_{0}omega [cos(omega t)sin(omega t)cos(phi)-cos^2(omega t)sin(phi)]</p>
 </div></blockquote>
 <p>end{eqnarray}`</p>
-</div>
-<div class="section" id="numerical-power">
+</section>
+<section id="numerical-power">
 <h3>numerical power<a class="headerlink" href="#numerical-power" title="Permalink to this headline">¶</a></h3>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[200]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">n_power</span><span class="o">=</span><span class="n">m</span><span class="o">*</span><span class="n">beta</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">omega</span><span class="o">*</span><span class="n">time</span><span class="p">)</span><span class="o">*</span><span class="n">answer</span><span class="p">[:,</span><span class="mi">1</span><span class="p">]</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">n_power</span><span class="o">=</span><span class="n">m</span><span class="o">*</span><span class="n">beta</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">omega</span><span class="o">*</span><span class="n">time</span><span class="p">)</span><span class="o">*</span><span class="n">answer</span><span class="p">[:,</span><span class="mi">1</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
-</div>
-<div class="section" id="analytical-power">
+</section>
+<section id="analytical-power">
 <h3>analytical power<a class="headerlink" href="#analytical-power" title="Permalink to this headline">¶</a></h3>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[201]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">x0</span><span class="o">=</span><span class="n">a_amplitude</span><span class="p">(</span><span class="n">beta</span><span class="p">,</span><span class="n">omega</span><span class="p">,</span> <span class="n">omega_0</span><span class="p">,</span><span class="n">gamma</span><span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x0</span><span class="o">=</span><span class="n">a_amplitude</span><span class="p">(</span><span class="n">beta</span><span class="p">,</span><span class="n">omega</span><span class="p">,</span> <span class="n">omega_0</span><span class="p">,</span><span class="n">gamma</span><span class="p">)</span>
 <span class="n">phi</span><span class="o">=</span><span class="n">a_phase</span><span class="p">(</span><span class="n">omega</span><span class="p">,</span><span class="n">omega_0</span><span class="p">,</span><span class="n">gamma</span><span class="p">)</span>
 <span class="n">a_power</span><span class="o">=-</span><span class="n">m</span><span class="o">*</span><span class="n">beta</span><span class="o">*</span><span class="n">x0</span><span class="o">*</span><span class="n">omega</span><span class="o">*</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">omega</span><span class="o">*</span><span class="n">time</span><span class="p">)</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">omega</span><span class="o">*</span><span class="n">time</span><span class="p">)</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">phi</span><span class="p">)</span><span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">phi</span><span class="p">)</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">omega</span><span class="o">*</span><span class="n">time</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
@@ -1700,8 +1603,7 @@ P&amp;=&amp;- mbeta x_{0}omega cos(omega t) sin(omega t -phi)\</p>
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[202]:
 </pre></div>
 </div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span> <span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">6</span><span class="p">)</span> <span class="p">)</span>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span> <span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">6</span><span class="p">)</span> <span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;absorbed driving power&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">time</span><span class="p">,</span><span class="n">n_power</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;numeric&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">time</span><span class="p">,</span><span class="n">a_power</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;analytic&#39;</span><span class="p">)</span>
@@ -1724,58 +1626,38 @@ P&amp;=&amp;- mbeta x_{0}omega cos(omega t) sin(omega t -phi)\</p>
 <p><strong>Play Around</strong> Look at the absorbed power as a function of the frequency as well. ***</p>
 <script type="application/vnd.jupyter.widget-state+json">
 {"state": {}, "version_major": 2, "version_minor": 0}
-</script></div>
-</div>
-</div>
+</script></section>
+</section>
+</section>
 
 
            </div>
-           
           </div>
           <footer>
-  
 
   <hr/>
 
   <div role="contentinfo">
-    <p>
-        
-        &copy; Copyright 2021, Frank Cichos
-      <span class="lastupdated">
-        Last updated on Jul 19, 2021.
-      </span>
-
-    </p>
+    <p>&#169; Copyright 2021, Frank Cichos.
+      <span class="lastupdated">Last updated on Mar 24, 2022.
+      </span></p>
   </div>
-    
-    
-    
-    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
-    
-    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
-    
-    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
 
 </footer>
-
         </div>
       </div>
-
     </section>
-
   </div>
-  
-
-  <script type="text/javascript">
+  <script>
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-
-  
-  
-    
-   
+  </script> 
 
 </body>
 </html>
